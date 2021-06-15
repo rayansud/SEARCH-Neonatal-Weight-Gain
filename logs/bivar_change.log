@@ -1,0 +1,779 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /home/rayansud/SEARCH/logs/bivar_change.log
+  log type:  text
+ opened on:   7 Jun 2021, 04:54:33
+
+. 
+. 
+. ******Bivariate correlation checks****
+. regress chwt_128 mage
+
+      Source |       SS           df       MS      Number of obs   =     7,802
+-------------+----------------------------------   F(1, 7800)      =     11.28
+       Model |  998790.424         1  998790.424   Prob > F        =    0.0008
+    Residual |   690598758     7,800  88538.3023   R-squared       =    0.0014
+-------------+----------------------------------   Adj R-squared   =    0.0013
+       Total |   691597549     7,801  88654.9864   Root MSE        =    297.55
+
+------------------------------------------------------------------------------
+    chwt_128 |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+        mage |  -3.401889   1.012858    -3.36   0.001    -5.387361   -1.416416
+       _cons |   669.9281   23.64944    28.33   0.000     623.5688    716.2873
+------------------------------------------------------------------------------
+
+. regress chwt_128 gage
+
+      Source |       SS           df       MS      Number of obs   =     7,742
+-------------+----------------------------------   F(1, 7740)      =     66.50
+       Model |   5829192.3         1   5829192.3   Prob > F        =    0.0000
+    Residual |   678437084     7,740    87653.37   R-squared       =    0.0085
+-------------+----------------------------------   Adj R-squared   =    0.0084
+       Total |   684266276     7,741  88395.0751   Root MSE        =    296.06
+
+------------------------------------------------------------------------------
+    chwt_128 |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+        gage |   13.63072   1.671471     8.15   0.000     10.35418    16.90725
+       _cons |   52.84119   66.05428     0.80   0.424    -76.64308    182.3255
+------------------------------------------------------------------------------
+
+. regress chwt_128 wt1
+
+      Source |       SS           df       MS      Number of obs   =     7,816
+-------------+----------------------------------   F(1, 7814)      =     15.03
+       Model |  1329130.87         1  1329130.87   Prob > F        =    0.0001
+    Residual |   690925135     7,814  88421.4404   R-squared       =    0.0019
+-------------+----------------------------------   Adj R-squared   =    0.0018
+       Total |   692254266     7,815  88580.2004   Root MSE        =    297.36
+
+------------------------------------------------------------------------------
+    chwt_128 |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         wt1 |   31.48389   8.120511     3.88   0.000     15.56552    47.40227
+       _cons |   509.6667    21.3035    23.92   0.000     467.9061    551.4272
+------------------------------------------------------------------------------
+
+. regress chwt_128 dt_birth
+
+      Source |       SS           df       MS      Number of obs   =     7,677
+-------------+----------------------------------   F(1, 7675)      =     53.26
+       Model |  4688251.67         1  4688251.67   Prob > F        =    0.0000
+    Residual |   675615865     7,675  88028.1258   R-squared       =    0.0069
+-------------+----------------------------------   Adj R-squared   =    0.0068
+       Total |   680304117     7,676  88627.4253   Root MSE        =     296.7
+
+------------------------------------------------------------------------------
+    chwt_128 |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+    dt_birth |   2.40e-10   3.29e-11     7.30   0.000     1.76e-10    3.05e-10
+       _cons |   268.3917   44.38052     6.05   0.000     181.3937    355.3896
+------------------------------------------------------------------------------
+
+. 
+. ttest chwt_128,by(sex)
+
+Two-sample t test with equal variances
+------------------------------------------------------------------------------
+   Group |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+    male |   3,934    624.1599    4.947717    310.3287    614.4596    633.8602
+  female |   3,873    557.6372    4.476491    278.5874    548.8607    566.4137
+---------+--------------------------------------------------------------------
+combined |   7,807    591.1584    3.359768    296.8598    584.5724    597.7445
+---------+--------------------------------------------------------------------
+    diff |            66.52266    6.677853                53.43227    79.61304
+------------------------------------------------------------------------------
+    diff = mean(male) - mean(female)                              t =   9.9617
+Ho: diff = 0                                     degrees of freedom =     7805
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = 1.0000         Pr(|T| > |t|) = 0.0000          Pr(T > t) = 0.0000
+
+. oneway chwt_128 m_edu4,tabulate
+
+   Maternal | Summary of weight change from birth
+  Educ in 4 |             to d28 (g)
+ Categories |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+  Illiterat |   546.01479   290.65282       2,164
+  1-4/Liter |   579.50709   289.96534         635
+       5-10 |   601.29166   299.34498       3,823
+       >=11 |   648.27489   297.00509       1,175
+------------+------------------------------------
+      Total |   591.25612   297.67297       7,797
+
+                        Analysis of Variance
+    Source              SS         df      MS            F     Prob > F
+------------------------------------------------------------------------
+Between groups      8721995.26      3   2907331.75     33.22     0.0000
+ Within groups       682075320   7793   87524.1011
+------------------------------------------------------------------------
+    Total            690797316   7796    88609.199
+
+Bartlett's test for equal variances:  chi2(3) =   2.9453  Prob>chi2 = 0.400
+
+. oneway chwt_128 f_edu4,tabulate
+
+   Paternal | Summary of weight change from birth
+  Educ in 4 |             to d28 (g)
+ Categories |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+  Illiterat |   550.15545   292.39734       1,486
+  1-4/Liter |   560.01471   291.60208       1,020
+       5-10 |   597.70905   291.73329       3,358
+       >=11 |   628.83499   310.41061       1,909
+------------+------------------------------------
+      Total |   591.31597   297.85304       7,773
+
+                        Analysis of Variance
+    Source              SS         df      MS            F     Prob > F
+------------------------------------------------------------------------
+Between groups      6341430.35      3   2113810.12     24.04     0.0000
+ Within groups       683162702   7769   87934.4448
+------------------------------------------------------------------------
+    Total            689504132   7772   88716.4349
+
+Bartlett's test for equal variances:  chi2(3) =  11.1446  Prob>chi2 = 0.011
+
+. oneway chwt_128 grav4,tabulate
+
+  Gravidity | Summary of weight change from birth
+       in 4 |             to d28 (g)
+ Categories |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+   1st preg |   583.32705   300.39997       2,969
+   2nd preg |   611.27421   298.04373       2,757
+   3rd preg |    594.6193   291.19112       1,337
+   >=4 preg |   542.84926   290.84767         743
+------------+------------------------------------
+      Total |   591.27902   297.70551       7,806
+
+                        Analysis of Variance
+    Source              SS         df      MS            F     Prob > F
+------------------------------------------------------------------------
+Between groups      3047591.83      3   1015863.94     11.51     0.0000
+ Within groups       688698406   7802   88272.0336
+------------------------------------------------------------------------
+    Total            691745998   7805   88628.5712
+
+Bartlett's test for equal variances:  chi2(3) =   2.5104  Prob>chi2 = 0.473
+
+. oneway chwt_128 para5,tabulate
+
+            | Summary of weight change from birth
+Parity in 5 |             to d28 (g)
+ Categories |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+  0 childre |   581.20006   303.08393       3,094
+    1 child |   616.41388   293.56932       2,810
+  2 childre |    585.0126   290.05482       1,270
+  3 childre |   544.65977   277.03384         435
+  >=4 child |   535.14493   328.53711         207
+------------+------------------------------------
+      Total |    591.2262   297.62426       7,816
+
+                        Analysis of Variance
+    Source              SS         df      MS            F     Prob > F
+------------------------------------------------------------------------
+Between groups      3737076.16      4    934269.04     10.60     0.0000
+ Within groups       688517190   7811   88147.1246
+------------------------------------------------------------------------
+    Total            692254266   7815   88580.2004
+
+Bartlett's test for equal variances:  chi2(4) =  13.2269  Prob>chi2 = 0.010
+
+. oneway chwt_128 year_birth,tabulate
+
+            | Summary of weight change from birth
+            |             to d28 (g)
+ year_birth |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+       1996 |   573.26778   330.63066         239
+       1997 |   566.32458   294.42747         419
+       1998 |    557.7237   292.52923         637
+       1999 |   540.26616   278.56866         789
+       2000 |   559.93144   290.02777         846
+       2001 |   604.06469   260.02197         572
+       2002 |   591.83949   281.46764         704
+       2003 |   604.95581   321.35489         611
+       2004 |   623.64341   293.30505         645
+       2005 |   614.12572   320.92947         692
+       2006 |   627.44011   297.17433         743
+       2007 |   628.00462   308.54107         649
+       2008 |   590.07634   319.67049         131
+------------+------------------------------------
+      Total |   591.32982   297.70359       7,677
+
+                        Analysis of Variance
+    Source              SS         df      MS            F     Prob > F
+------------------------------------------------------------------------
+Between groups      7032170.05     12   586014.171      6.67     0.0000
+ Within groups       673271947   7664   87848.6361
+------------------------------------------------------------------------
+    Total            680304117   7676   88627.4253
+
+Bartlett's test for equal variances:  chi2(12) =  56.0515  Prob>chi2 = 0.000
+
+. oneway chwt_128 n_preg_visits,tabulate
+
+            | Summary of weight change from birth
+n_preg_visi |             to d28 (g)
+         ts |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+   0 visits |   566.71396    301.7862       1,325
+    1 visit |   523.86885   306.89803         610
+   2 visits |   605.55885   293.75244       2,863
+   3 visits |   602.00563   295.16356       3,018
+------------+------------------------------------
+      Total |    591.2262   297.62426       7,816
+
+                        Analysis of Variance
+    Source              SS         df      MS            F     Prob > F
+------------------------------------------------------------------------
+Between groups      4502515.24      3   1500838.41     17.05     0.0000
+ Within groups       687751751   7812   88037.8585
+------------------------------------------------------------------------
+    Total            692254266   7815   88580.2004
+
+Bartlett's test for equal variances:  chi2(3) =   2.9246  Prob>chi2 = 0.403
+
+. 
+. ttest chwt_128 ,by(bi_asph)
+
+Two-sample t test with equal variances
+------------------------------------------------------------------------------
+   Group |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+     yes |     793    589.9054    10.79373    303.9543    568.7177    611.0931
+      no |   7,023    591.3753    3.543089    296.9227    584.4298    598.3209
+---------+--------------------------------------------------------------------
+combined |   7,816    591.2262     3.36648    297.6243     584.627    597.8254
+---------+--------------------------------------------------------------------
+    diff |           -1.469916    11.15039               -23.32766    20.38783
+------------------------------------------------------------------------------
+    diff = mean(yes) - mean(no)                                   t =  -0.1318
+Ho: diff = 0                                     degrees of freedom =     7814
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = 0.4476         Pr(|T| > |t|) = 0.8951          Pr(T > t) = 0.5524
+
+. ttest chwt_128 ,by(neo_sep)
+
+Two-sample t test with equal variances
+------------------------------------------------------------------------------
+   Group |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+     yes |     711    534.9789    12.54326    334.4608    510.3526    559.6052
+      no |   7,105    596.8549    3.477428    293.1165    590.0381    603.6717
+---------+--------------------------------------------------------------------
+combined |   7,816    591.2262     3.36648    297.6243     584.627    597.8254
+---------+--------------------------------------------------------------------
+    diff |           -61.87599    11.68676               -84.78516   -38.96682
+------------------------------------------------------------------------------
+    diff = mean(yes) - mean(no)                                   t =  -5.2945
+Ho: diff = 0                                     degrees of freedom =     7814
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = 0.0000         Pr(|T| > |t|) = 0.0000          Pr(T > t) = 1.0000
+
+. ttest chwt_128 ,by(hemo)
+
+Two-sample t test with equal variances
+------------------------------------------------------------------------------
+   Group |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+     yes |      39    492.3077    52.83107    329.9299    385.3568    599.2586
+      no |   7,777    591.7223      3.3723     297.394    585.1116    598.3329
+---------+--------------------------------------------------------------------
+combined |   7,816    591.2262     3.36648    297.6243     584.627    597.8254
+---------+--------------------------------------------------------------------
+    diff |           -99.41457    47.76719                -193.051   -5.778088
+------------------------------------------------------------------------------
+    diff = mean(yes) - mean(no)                                   t =  -2.0812
+Ho: diff = 0                                     degrees of freedom =     7814
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = 0.0187         Pr(|T| > |t|) = 0.0374          Pr(T > t) = 0.9813
+
+. ttest chwt_128 ,by(twin)
+
+Two-sample t test with equal variances
+------------------------------------------------------------------------------
+   Group |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+     yes |      98    390.8163    29.14418    288.5126    332.9732    448.6594
+      no |   7,718    593.7709    3.379401    296.8877    587.1464    600.3955
+---------+--------------------------------------------------------------------
+combined |   7,816    591.2262     3.36648    297.6243     584.627    597.8254
+---------+--------------------------------------------------------------------
+    diff |           -202.9546    30.16956                -262.095   -143.8142
+------------------------------------------------------------------------------
+    diff = mean(yes) - mean(no)                                   t =  -6.7271
+Ho: diff = 0                                     degrees of freedom =     7814
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = 0.0000         Pr(|T| > |t|) = 0.0000          Pr(T > t) = 1.0000
+
+. ttest chwt_128 ,by(hypo)
+
+Two-sample t test with equal variances
+------------------------------------------------------------------------------
+   Group |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+     yes |     402    518.4204     17.1516    343.8885    484.7021    552.1387
+      no |   7,414    595.1739     3.41934    294.4209     588.471    601.8767
+---------+--------------------------------------------------------------------
+combined |   7,816    591.2262     3.36648    297.6243     584.627    597.8254
+---------+--------------------------------------------------------------------
+    diff |           -76.75346     15.2175               -106.5838   -46.92309
+------------------------------------------------------------------------------
+    diff = mean(yes) - mean(no)                                   t =  -5.0438
+Ho: diff = 0                                     degrees of freedom =     7814
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = 0.0000         Pr(|T| > |t|) = 0.0000          Pr(T > t) = 1.0000
+
+. ttest chwt_128 ,by(u_fev)
+
+Two-sample t test with equal variances
+------------------------------------------------------------------------------
+   Group |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+     yes |     343    605.5481    18.84896    349.0876    568.4736    642.6226
+      no |   7,473    590.5688    3.413179    295.0574    583.8781    597.2596
+---------+--------------------------------------------------------------------
+combined |   7,816    591.2262     3.36648    297.6243     584.627    597.8254
+---------+--------------------------------------------------------------------
+    diff |            14.97926    16.43504               -17.23782    47.19633
+------------------------------------------------------------------------------
+    diff = mean(yes) - mean(no)                                   t =   0.9114
+Ho: diff = 0                                     degrees of freedom =     7814
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = 0.8189         Pr(|T| > |t|) = 0.3621          Pr(T > t) = 0.1811
+
+. ttest chwt_128 ,by(fdpr_m)
+
+Two-sample t test with equal variances
+------------------------------------------------------------------------------
+   Group |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+     yes |     391    516.2916    17.71214    350.2348    481.4683    551.1148
+      no |   7,425    595.1723    3.412994    294.0923    588.4818    601.8627
+---------+--------------------------------------------------------------------
+combined |   7,816    591.2262     3.36648    297.6243     584.627    597.8254
+---------+--------------------------------------------------------------------
+    diff |            -78.8807    15.41791               -109.1039   -48.65746
+------------------------------------------------------------------------------
+    diff = mean(yes) - mean(no)                                   t =  -5.1162
+Ho: diff = 0                                     degrees of freedom =     7814
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = 0.0000         Pr(|T| > |t|) = 0.0000          Pr(T > t) = 1.0000
+
+. ttest chwt_128 ,by(fdpr_b)
+
+Two-sample t test with equal variances
+------------------------------------------------------------------------------
+   Group |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+     yes |     728     503.489    12.59074    339.7167    478.7705    528.2076
+      no |   7,088    600.2376    3.462324     291.494    593.4504    607.0248
+---------+--------------------------------------------------------------------
+combined |   7,816    591.2262     3.36648    297.6243     584.627    597.8254
+---------+--------------------------------------------------------------------
+    diff |           -96.74857    11.53224               -119.3549   -74.14229
+------------------------------------------------------------------------------
+    diff = mean(yes) - mean(no)                                   t =  -8.3894
+Ho: diff = 0                                     degrees of freedom =     7814
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = 0.0000         Pr(|T| > |t|) = 0.0000          Pr(T > t) = 1.0000
+
+. ttest chwt_128 ,by(conj)
+
+Two-sample t test with equal variances
+------------------------------------------------------------------------------
+   Group |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+     yes |      91         645    36.18776    345.2093    573.1067    716.8933
+      no |   7,725    590.5928     3.37899    296.9862     583.969    597.2165
+---------+--------------------------------------------------------------------
+combined |   7,816    591.2262     3.36648    297.6243     584.627    597.8254
+---------+--------------------------------------------------------------------
+    diff |            54.40725     31.3787               -7.103397    115.9179
+------------------------------------------------------------------------------
+    diff = mean(yes) - mean(no)                                   t =   1.7339
+Ho: diff = 0                                     degrees of freedom =     7814
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = 0.9585         Pr(|T| > |t|) = 0.0830          Pr(T > t) = 0.0415
+
+. ttest chwt_128 ,by(bsi)
+
+Two-sample t test with equal variances
+------------------------------------------------------------------------------
+   Group |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+     yes |     261    599.1379    19.80896    320.0236    560.1315    638.1444
+      no |   7,555    590.9529    3.415105    296.8392    584.2583    597.6474
+---------+--------------------------------------------------------------------
+combined |   7,816    591.2262     3.36648    297.6243     584.627    597.8254
+---------+--------------------------------------------------------------------
+    diff |            8.185052    18.73897               -28.54833    44.91844
+------------------------------------------------------------------------------
+    diff = mean(yes) - mean(no)                                   t =   0.4368
+Ho: diff = 0                                     degrees of freedom =     7814
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = 0.6689         Pr(|T| > |t|) = 0.6623          Pr(T > t) = 0.3311
+
+. ttest chwt_128 ,by(abjaun)
+
+Two-sample t test with equal variances
+------------------------------------------------------------------------------
+   Group |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+     yes |      37    575.6757     55.8722    339.8573    462.3616    688.9898
+      no |   7,779    591.3002    3.372297     297.432    584.6896    597.9108
+---------+--------------------------------------------------------------------
+combined |   7,816    591.2262     3.36648    297.6243     584.627    597.8254
+---------+--------------------------------------------------------------------
+    diff |           -15.62449    49.04817                -111.772    80.52305
+------------------------------------------------------------------------------
+    diff = mean(yes) - mean(no)                                   t =  -0.3186
+Ho: diff = 0                                     degrees of freedom =     7814
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = 0.3750         Pr(|T| > |t|) = 0.7501          Pr(T > t) = 0.6250
+
+. ttest chwt_128 ,by(jaun)
+
+Two-sample t test with equal variances
+------------------------------------------------------------------------------
+   Group |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+     yes |     128    659.5391     27.6031    312.2934    604.9175    714.1606
+      no |   7,688    590.0888    3.390262    297.2624     583.443    596.7347
+---------+--------------------------------------------------------------------
+combined |   7,816    591.2262     3.36648    297.6243     584.627    597.8254
+---------+--------------------------------------------------------------------
+    diff |            69.45022    26.51467                17.47438    121.4261
+------------------------------------------------------------------------------
+    diff = mean(yes) - mean(no)                                   t =   2.6193
+Ho: diff = 0                                     degrees of freedom =     7814
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = 0.9956         Pr(|T| > |t|) = 0.0088          Pr(T > t) = 0.0044
+
+. ttest chwt_128 ,by(pnm)
+
+Two-sample t test with equal variances
+------------------------------------------------------------------------------
+   Group |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+     yes |     107     668.972    29.34682    303.5659     610.789    727.1549
+      no |   7,709    590.1471    3.387414    297.4181    583.5068    596.7874
+---------+--------------------------------------------------------------------
+combined |   7,816    591.2262     3.36648    297.6243     584.627    597.8254
+---------+--------------------------------------------------------------------
+    diff |            78.82486    28.95954                22.05641    135.5933
+------------------------------------------------------------------------------
+    diff = mean(yes) - mean(no)                                   t =   2.7219
+Ho: diff = 0                                     degrees of freedom =     7814
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = 0.9967         Pr(|T| > |t|) = 0.0065          Pr(T > t) = 0.0033
+
+. ttest chwt_128 ,by(uri)
+
+Two-sample t test with equal variances
+------------------------------------------------------------------------------
+   Group |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+     yes |     120      568.75    24.16362    264.6992    520.9036    616.5964
+      no |   7,696    591.5767     3.39817    298.1108    584.9153     598.238
+---------+--------------------------------------------------------------------
+combined |   7,816    591.2262     3.36648    297.6243     584.627    597.8254
+---------+--------------------------------------------------------------------
+    diff |           -22.82666    27.38079               -76.50033    30.84701
+------------------------------------------------------------------------------
+    diff = mean(yes) - mean(no)                                   t =  -0.8337
+Ho: diff = 0                                     degrees of freedom =     7814
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = 0.2022         Pr(|T| > |t|) = 0.4045          Pr(T > t) = 0.7978
+
+. ttest chwt_128 ,by(umb_sep)
+
+Two-sample t test with equal variances
+------------------------------------------------------------------------------
+   Group |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+     yes |     155    574.0968    24.61282    306.4271    525.4745    622.7191
+      no |   7,661    591.5728    3.398419    297.4539    584.9109    598.2346
+---------+--------------------------------------------------------------------
+combined |   7,816    591.2262     3.36648    297.6243     584.627    597.8254
+---------+--------------------------------------------------------------------
+    diff |             -17.476    24.14712               -64.81081    29.85881
+------------------------------------------------------------------------------
+    diff = mean(yes) - mean(no)                                   t =  -0.7237
+Ho: diff = 0                                     degrees of freedom =     7814
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = 0.2346         Pr(|T| > |t|) = 0.4693          Pr(T > t) = 0.7654
+
+. 
+. 
+. **Bivar statistic graphs
+. graph twoway (lfitci chwt_128 mage) (scatter chwt_128 mage),xtitle("Maternal Age (years)") ytitle("Change in Neonate Weight, D1-28") title("Change in Neonate Weight vs. Maternal Age")
+
+. graph export graphs/bivar_mage.eps,replace
+(file graphs/bivar_mage.eps written in EPS format)
+
+. graph twoway (lfitci chwt_128 gage) (scatter chwt_128 gage),xtitle("Gestational Age (weeks)") ytitle("Change in Neonate Weight, D1-28") title("Change in Neonate Weight vs. Gestational Age")
+
+. graph export graphs/bivar_gage.eps,replace
+(file graphs/bivar_gage.eps written in EPS format)
+
+. graph twoway (lfitci chwt_128 wt1_g) (scatter chwt_128 wt1_g),xtitle("Weight at Day 1 (g)") ytitle("Change in Neonate Weight, D1-28") title("Change in Neonate Weight vs. Neonate at Day 1")
+
+. graph export graphs/bivar_wt1.eps,replace
+(file graphs/bivar_wt1.eps written in EPS format)
+
+. graph twoway (lfitci chwt_128 dt_birth) (scatter chwt_128 dt_birth),xtitle("Date of Birth") ytitle("Change in Neonate Weight, D1-28") title("Change in Neonate Weight vs. Date of Birth")
+
+. graph export graphs/bivar_dtbirth.eps,replace
+(file graphs/bivar_dtbirth.eps written in EPS format)
+
+. 
+. graph bar chwt_128,over(sex) b1title("Neonate Sex") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Sex")
+
+. graph export graphs/bivar_sex.eps,replace
+(file graphs/bivar_sex.eps written in EPS format)
+
+. graph bar chwt_128 ,over(m_edu4) b1title("Mother's Education") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Mother's Education")
+
+. graph export graphs/bivar_m_edu.eps,replace
+(file graphs/bivar_m_edu.eps written in EPS format)
+
+. graph bar chwt_128 ,over(f_edu4) b1title("Father's Education") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Mother's Education")
+
+. graph export graphs/bivar_f_edu.eps,replace
+(file graphs/bivar_f_edu.eps written in EPS format)
+
+. graph bar chwt_128 ,over(grav4)  b1title("Mother's Gravidity") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Mother's Gravidity")
+
+. graph export graphs/bivar_grav.eps,replace
+(file graphs/bivar_grav.eps written in EPS format)
+
+. graph bar chwt_128 ,over(para5)  b1title("Mother's Parity") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Mother's Parity")
+
+. graph export graphs/bivar_para.eps,replace
+(file graphs/bivar_para.eps written in EPS format)
+
+. graph bar chwt_128 ,over(year_birth)  b1title("Year of Birth") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Year of Birth")
+
+. graph export graphs/bivar_year.eps,replace
+(file graphs/bivar_year.eps written in EPS format)
+
+. graph bar chwt_128 ,over(n_preg_visits)  b1title("Number of Home Pregnancy Visits") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Number of Home Pregnancy Visits
+> ")
+
+. graph export graphs/bivar_preg_v.eps,replace
+(file graphs/bivar_preg_v.eps written in EPS format)
+
+. 
+. graph bar chwt_128 ,over(bi_asph)  b1title("Birth Asphyxia Occurrence") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Birth Asphyxia Occurrence")
+
+. graph export graphs/bivar_bi_asph.eps,replace
+(file graphs/bivar_bi_asph.eps written in EPS format)
+
+. graph bar chwt_128 ,over(neo_sep) b1title("Neonate Sepsis Occurrence") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Neonate Sepsis Occurrence")
+
+. graph export graphs/bivar_neo_sep.eps,replace
+(file graphs/bivar_neo_sep.eps written in EPS format)
+
+. graph bar chwt_128 ,over(hemo)  b1title("Hemorrhage Occurrence") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Hemorrhage Occurrence")
+
+. graph export graphs/bivar_hemo.eps,replace
+(file graphs/bivar_hemo.eps written in EPS format)
+
+. graph bar chwt_128 ,over(twin)  b1title("Twin Status") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Twin Status")
+
+. graph export graphs/bivar_twin.eps,replace
+(file graphs/bivar_twin.eps written in EPS format)
+
+. graph bar chwt_128 ,over(hypo)  b1title("Hypothermia Occurrence") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Hypothermia Occurrence")
+
+. graph export graphs/bivar_hypo.eps,replace
+(file graphs/bivar_hypo.eps written in EPS format)
+
+. graph bar chwt_128 ,over(u_fev) b1title("Unexplained Fever Occurrence") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Unexplained Fever Occurrence")
+
+. graph export graphs/bivar_u_fev.eps,replace
+(file graphs/bivar_u_fev.eps written in EPS format)
+
+. graph bar chwt_128 ,over(fdpr_m)  b1title("Mother's Feeding Problem Occurrence") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Mother's Feeding Problem Occurrenc
+> e")
+
+. graph export graphs/bivar_fdpr_m.eps,replace
+(file graphs/bivar_fdpr_m.eps written in EPS format)
+
+. graph bar chwt_128 ,over(fdpr_b) b1title("Neonate Feeding Problem Occurrence") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Neonate Feeding Problem Occurrence")
+
+. graph export graphs/bivar_fdpr_b.eps,replace
+(file graphs/bivar_fdpr_b.eps written in EPS format)
+
+. graph bar chwt_128 ,over(conj) b1title("Conjunctivitis Occurrence") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Conjunctivitis Occurrence")
+
+. graph export graphs/bivar_conj.eps,replace
+(file graphs/bivar_conj.eps written in EPS format)
+
+. graph bar chwt_128 ,over(bsi) b1title("Bacterial Skin Infection Occurrence") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Bacterial Skin Infection Occurrence")
+
+. graph export graphs/bivar_bsi.eps,replace
+(file graphs/bivar_bsi.eps written in EPS format)
+
+. graph bar chwt_128 ,over(abjaun) b1title("Abonrmal Jaundice Occurrence") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Abonrmal Jaundice Occurrence")
+
+. graph export graphs/bivar_abjaun.eps,replace
+(file graphs/bivar_abjaun.eps written in EPS format)
+
+. graph bar chwt_128 ,over(jaun) b1title("Jaundice Occurrence") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Jaundice Occurrence")
+
+. graph export graphs/bivar_jaun.eps,replace
+(file graphs/bivar_jaun.eps written in EPS format)
+
+. graph bar chwt_128 ,over(pnm) b1title("Pneumonia Occurrence") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Pneumonia Occurrence")
+
+. graph export graphs/bivar_pnm.eps,replace
+(file graphs/bivar_pnm.eps written in EPS format)
+
+. graph bar chwt_128 ,over(uri)  b1title("Upper Respiratory Infection Occurrence") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Upper Respiratory Infection Occurr
+> ence")
+
+. graph export graphs/bivar_uri.eps,replace
+(file graphs/bivar_uri.eps written in EPS format)
+
+. graph bar chwt_128 ,over(umb_sep) b1title("Umbilical Sepsis Occurrence") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by Umbilical Sepsis Occurrence")
+
+. graph export graphs/bivar_umb_sep.eps,replace
+(file graphs/bivar_umb_sep.eps written in EPS format)
+
+. 
+. 
+. *Profile plots
+. collapse (mean) chwt_128,by(year_birth)
+
+. graph twoway line chwt_128 year_birth,title("Change in Weight D1-28 over time") xtitle("Year of Birth") ytitle("Mean Change in Weight D1-28 (g)")
+
+. graph export graphs/profile_chwt128_year.eps,replace
+(file graphs/profile_chwt128_year.eps written in EPS format)
+
+. clear
+
+. use data/clean_data.dta
+
+. 
+. collapse (mean) wt1,by(year_birth)
+
+. graph twoway line wt1 year_birth,title("Birth Weight over time") xtitle("Year of Birth") ytitle("Mean Birth Weight (kg)")
+
+. graph export graphs/profile_wt1_year.eps,replace
+(file graphs/profile_wt1_year.eps written in EPS format)
+
+. clear
+
+. use data/clean_data.dta
+
+. 
+. 
+. *Profile plots with by day
+. 
+. reshape long wt,i(srno) j(day_wt)
+(note: j = 1 7 15 28)
+
+Data                               wide   ->   long
+-----------------------------------------------------------------------------
+Number of obs.                     7816   ->   31264
+Number of variables                  62   ->      60
+j variable (4 values)                     ->   day_wt
+xij variables:
+                       wt1 wt7 ... wt28   ->   wt
+-----------------------------------------------------------------------------
+
+. *Setting as panel data
+. xtset srno day_wt
+       panel variable:  srno (strongly balanced)
+        time variable:  day_wt, 1 to 28, but with gaps
+                delta:  1 unit
+
+. 
+. 
+. *Relabel to get rid of special chars
+. label def m_edu4_l 0 "Illiterate" 1 "Literate to 4" 2 "5 to 10" 3 "11 and over"
+
+. label val m_edu4 m_edu4_l
+
+. label def f_edu_l 0 "Illiterate" 1 "Literate to 4" 2 "5 to 10" 3 "11 and over"
+
+. label val f_edu4 f_edu4_l
+
+. 
+. save data/panel-format.dta,replace
+file data/panel-format.dta saved
+
+. 
+. collapse (mean) wt,by(day_wt sex)
+
+. xtline wt,overlay t(day_wt) i(sex) title("Growth Trajectory by Sex") xtitle("Day of Measurement") ytitle("Mean Weight")
+
+. graph export graphs/bivar_trajectory_sex.eps,replace
+(file graphs/bivar_trajectory_sex.eps written in EPS format)
+
+. clear
+
+. use data/panel-format.dta
+
+. 
+. collapse (mean) wt,by(day_wt m_edu4)
+
+. xtline wt,overlay t(day_wt) i(m_edu4) title("Growth Trajectory by Mother Education") xtitle("Day of Measurement") ytitle("Mean Weight (kg)")
+
+. graph export graphs/bivar_trajectory_m_edu.eps,replace
+(file graphs/bivar_trajectory_m_edu.eps written in EPS format)
+
+. clear
+
+. use data/panel-format.dta
+
+. 
+. collapse (mean) wt,by(day_wt f_edu4)
+
+. xtline wt,overlay t(day_wt) i(f_edu4) title("Growth Trajectory by Father Education") xtitle("Day of Measurement") ytitle("Mean Weight (kg)")
+
+. graph export graphs/bivar_trajectory_f_edu.eps,replace
+(file graphs/bivar_trajectory_f_edu.eps written in EPS format)
+
+. clear
+
+. use data/panel-format.dta
+
+. 
+. collapse (mean) wt,by(day_wt n_preg_visits)
+
+. xtline wt,overlay t(day_wt) i(n_preg_visits) title("Growth Trajectory by No. Pregnancy Visits") xtitle("Day of Measurement") ytitle("Mean Weight (kg)")
+
+. graph export graphs/bivar_trajectory_preg_v.eps,replace
+(file graphs/bivar_trajectory_preg_v.eps written in EPS format)
+
+. 
+. log close
+      name:  <unnamed>
+       log:  /home/rayansud/SEARCH/logs/bivar_change.log
+  log type:  text
+ closed on:   7 Jun 2021, 04:55:18
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

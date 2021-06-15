@@ -1,0 +1,505 @@
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /home/rayansud/SEARCH/logs/univar.log
+  log type:  text
+ opened on:   7 Jun 2021, 04:46:08
+
+. **********Analysis: Generate Univar & Bivar summaries***********
+. 
+. ****Summary statistics***
+. 
+. *Patient characteristics
+. sum mage
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+        mage |      7,802    23.11113    3.326151         16         54
+
+. sum gage
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+        gage |      7,742    39.46735      2.0132   23.45428   55.60457
+
+. tab sex,miss
+
+    neonate |
+     gender |      Freq.     Percent        Cum.
+------------+-----------------------------------
+       male |      3,934       50.33       50.33
+     female |      3,873       49.55       99.88
+          . |          9        0.12      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. tab m_edu4,miss
+
+    Maternal |
+   Educ in 4 |
+  Categories |      Freq.     Percent        Cum.
+-------------+-----------------------------------
+  Illiterate |      2,164       27.69       27.69
+1-4/Literate |        635        8.12       35.81
+        5-10 |      3,823       48.91       84.72
+        >=11 |      1,175       15.03       99.76
+           . |         19        0.24      100.00
+-------------+-----------------------------------
+       Total |      7,816      100.00
+
+. tab f_edu4,miss
+
+    Paternal |
+   Educ in 4 |
+  Categories |      Freq.     Percent        Cum.
+-------------+-----------------------------------
+  Illiterate |      1,486       19.01       19.01
+1-4/Literate |      1,020       13.05       32.06
+        5-10 |      3,358       42.96       75.03
+        >=11 |      1,909       24.42       99.45
+           . |         43        0.55      100.00
+-------------+-----------------------------------
+       Total |      7,816      100.00
+
+. tab grav4,miss
+
+  Gravidity |
+       in 4 |
+ Categories |      Freq.     Percent        Cum.
+------------+-----------------------------------
+   1st preg |      2,969       37.99       37.99
+   2nd preg |      2,757       35.27       73.26
+   3rd preg |      1,337       17.11       90.37
+   >=4 preg |        743        9.51       99.87
+          . |         10        0.13      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. tab para5,miss
+
+ Parity in 5 |
+  Categories |      Freq.     Percent        Cum.
+-------------+-----------------------------------
+  0 children |      3,094       39.59       39.59
+     1 child |      2,810       35.95       75.54
+  2 children |      1,270       16.25       91.79
+  3 children |        435        5.57       97.35
+>=4 children |        207        2.65      100.00
+-------------+-----------------------------------
+       Total |      7,816      100.00
+
+. tab n_preg_visits,miss
+
+n_preg_visi |
+         ts |      Freq.     Percent        Cum.
+------------+-----------------------------------
+   0 visits |      1,325       16.95       16.95
+    1 visit |        610        7.80       24.76
+   2 visits |      2,863       36.63       61.39
+   3 visits |      3,018       38.61      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. 
+. *Comorbidities
+. tab bi_asph
+
+      birth |
+   asphyxia |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        yes |        793       10.15       10.15
+         no |      7,023       89.85      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. tab neo_sep
+
+   neonatal |
+     sepsis |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        yes |        711        9.10        9.10
+         no |      7,105       90.90      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. tab hemo
+
+ hemorrhage |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        yes |         39        0.50        0.50
+         no |      7,777       99.50      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. tab twin
+
+      twins |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        yes |         98        1.25        1.25
+         no |      7,718       98.75      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. tab hypo
+
+hypothermia |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        yes |        402        5.14        5.14
+         no |      7,414       94.86      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. tab u_fev
+
+unexplained |
+      fever |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        yes |        343        4.39        4.39
+         no |      7,473       95.61      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. tab fpr_d1
+
+    feeding |
+ problem on |
+         d1 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        yes |        114        1.46        1.46
+         no |      7,702       98.54      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. tab fdpr_m
+
+mom feeding |
+    problem |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        yes |        391        5.00        5.00
+         no |      7,425       95.00      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. tab fdpr_b
+
+       baby |
+    feeding |
+    problem |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        yes |        728        9.31        9.31
+         no |      7,088       90.69      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. tab cong
+
+ congenital |
+    anomaly |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        yes |         36        0.46        0.46
+         no |      7,780       99.54      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. tab conj
+
+conjunctivi |
+        tis |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        yes |         91        1.16        1.16
+         no |      7,725       98.84      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. tab bsi
+
+  bacterial |
+ skin infxn |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        yes |        261        3.34        3.34
+         no |      7,555       96.66      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. tab abjaun
+
+       abnl |
+   jaundice |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        yes |         37        0.47        0.47
+         no |      7,779       99.53      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. tab jaun
+
+   jaundice |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        yes |        128        1.64        1.64
+         no |      7,688       98.36      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. tab pnm
+
+  pneumonia |
+       only |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        yes |        107        1.37        1.37
+         no |      7,709       98.63      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. tab uri
+
+      upper |
+respiratory |
+      infxn |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        yes |        120        1.54        1.54
+         no |      7,696       98.46      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. tab umb_sep
+
+  umbilical |
+     sepsis |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        yes |        155        1.98        1.98
+         no |      7,661       98.02      100.00
+------------+-----------------------------------
+      Total |      7,816      100.00
+
+. 
+. *Outcome variables: neonatal weights
+. sum wt1 wt7 wt15 wt28 growth_vel
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+         wt1 |      7,816    2.590516    .4142199        .75        4.7
+         wt7 |      7,066    2.592467    .4236217         .2      8.752
+        wt15 |      7,490    2.797747    .4630602          1          9
+        wt28 |      7,816    3.181742    .5205403      1.125       5.25
+  growth_vel |      7,816    8.333396    4.454108  -16.19601   54.76191
+
+. 
+. *Outcome variables: neonatal weight changes
+. sum chwt_17 chwt_715 chwt_1528 chwt_128 growth_vel
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+     chwt_17 |      7,066    14.05689    172.9975      -3050       5977
+    chwt_715 |      6,931    200.8729    200.7743      -5252       6750
+   chwt_1528 |      7,490    388.5011    215.9698      -6275       1650
+    chwt_128 |      7,816    591.2262    297.6243       -975       2325
+  growth_vel |      7,816    8.333396    4.454108  -16.19601   54.76191
+
+. 
+. *Univar graphs
+. hist mage, normal xtitle("Maternal Age (years)") title("Histogram of Neonates by Maternal Age in Years")
+(bin=38, start=16, width=1)
+
+. graph export graphs/univar_mage.eps,replace
+(note: file graphs/univar_mage.eps not found)
+(file graphs/univar_mage.eps written in EPS format)
+
+. hist gage, normal xtitle("Gestational Age (weeks)") title("Histogram of Neonates by Gestational Age in Weeks")
+(bin=38, start=23.454285, width=.8460601)
+
+. graph export graphs/univar_gage.eps,replace
+(note: file graphs/univar_gage.eps not found)
+(file graphs/univar_gage.eps written in EPS format)
+
+. hist dt_birth, xtitle("Date of Birth") title("Histogram of Neonates by Date of Birth")
+(bin=38, start=1.144e+12, width=9.963e+09)
+
+. graph export graphs/univar_dtbirth.eps,replace
+(note: file graphs/univar_dtbirth.eps not found)
+(file graphs/univar_dtbirth.eps written in EPS format)
+
+. 
+. 
+. graph bar (count),over(sex) b1title("Neonate Sex") ytitle("Number") title("Distribution of Neonates by Sex")
+
+. graph export graphs/univar_sex.eps,replace
+(note: file graphs/univar_sex.eps not found)
+(file graphs/univar_sex.eps written in EPS format)
+
+. graph bar (count),over(m_edu4) b1title("Mother's Education Level") ytitle("Number") title("Distribution of Neonates by Mother's Education Level")
+
+. graph export graphs/univar_m_edu.eps,replace
+(note: file graphs/univar_m_edu.eps not found)
+(file graphs/univar_m_edu.eps written in EPS format)
+
+. graph bar (count),over(f_edu4) b1title("Father's Education Level") ytitle("Number") title("Distribution of Neonates by Father's Education Level")
+
+. graph export graphs/univar_f_edu.eps,replace
+(note: file graphs/univar_f_edu.eps not found)
+(file graphs/univar_f_edu.eps written in EPS format)
+
+. graph bar (count),over(grav4) b1title("Mother's Gravidity") ytitle("Number") title("Distribution of Neonates by Mother's Gravidity")
+
+. graph export graphs/univar_grav.eps,replace
+(note: file graphs/univar_grav.eps not found)
+(file graphs/univar_grav.eps written in EPS format)
+
+. graph bar (count),over(para5) b1title("Mother's Parity") ytitle("Number") title("Distribution of Neonates by Mother's Parity")
+
+. graph export graphs/univar_para.eps,replace
+(note: file graphs/univar_para.eps not found)
+(file graphs/univar_para.eps written in EPS format)
+
+. graph bar (count),over(year_birth) b1title("Year of Birth") ytitle("Number") title("Distribution of Neonates by Year of Birth")
+
+. graph export graphs/univar_year.eps,replace
+(note: file graphs/univar_year.eps not found)
+(file graphs/univar_year.eps written in EPS format)
+
+. graph bar (count),over(n_preg_visits) b1title("Number of Home Pregnancy Visits") ytitle("Number") title("Distribution of Neonates by Number of Home Pregnancy Visits")
+
+. graph export graphs/univar_preg_v.eps,replace
+(note: file graphs/univar_preg_v.eps not found)
+(file graphs/univar_preg_v.eps written in EPS format)
+
+. 
+. 
+. graph bar (count),over(bi_asph) b1title("Birth Asphyxia Occurrence") ytitle("Number") title("Distribution of Neonates by Birth Asphyxia Occurrence")
+
+. graph export graphs/univar_bi_asph.eps,replace
+(note: file graphs/univar_bi_asph.eps not found)
+(file graphs/univar_bi_asph.eps written in EPS format)
+
+. graph bar (count),over(neo_sep) b1title("Neonatal Sepsis Occurrence") ytitle("Number") title("Distribution of Neonates by Neonatal Sepsis Occurrence") 
+
+. graph export graphs/univar_neo_sep.eps,replace
+(note: file graphs/univar_neo_sep.eps not found)
+(file graphs/univar_neo_sep.eps written in EPS format)
+
+. graph bar (count),over(hemo)  b1title("Hemorrhage Occurrence") ytitle("Number") title("Distribution of Neonates by Hemorrhage Occurrence")
+
+. graph export graphs/univar_hemo.eps,replace
+(note: file graphs/univar_hemo.eps not found)
+(file graphs/univar_hemo.eps written in EPS format)
+
+. graph bar (count),over(twin) b1title("Twin Birth") ytitle("Number") title("Distribution of Neonates by Twin Birth") 
+
+. graph export graphs/univar_twin.eps,replace
+(note: file graphs/univar_twin.eps not found)
+(file graphs/univar_twin.eps written in EPS format)
+
+. graph bar (count),over(hypo)  b1title("Hypothermia Occurrence") ytitle("Number") title("Distribution of Neonates by Hypothermia Occurrence")
+
+. graph export graphs/univar_hypo.eps,replace
+(note: file graphs/univar_hypo.eps not found)
+(file graphs/univar_hypo.eps written in EPS format)
+
+. graph bar (count),over(u_fev) b1title("Unexplained Fever Occurrence") ytitle("Number") title("Distribution of Neonates by Unexplained Fever Occurrence") 
+
+. graph export graphs/univar_u_fev.eps,replace
+(note: file graphs/univar_u_fev.eps not found)
+(file graphs/univar_u_fev.eps written in EPS format)
+
+. graph bar (count),over(fdpr_m)  b1title("Mother Feeding Problem Occurrence") ytitle("Number") title("Distribution of Neonates by Mother Feeding Problem Occurrence")
+
+. graph export graphs/univar_fdpr_m.eps,replace
+(note: file graphs/univar_fdpr_m.eps not found)
+(file graphs/univar_fdpr_m.eps written in EPS format)
+
+. graph bar (count),over(fdpr_b)  b1title("Neonate Feeding Problem Occurrence") ytitle("Number") title("Distribution of Neonates by Neonate Feeding Problem Occurrence")
+
+. graph export graphs/univar_fdpr_b.eps,replace
+(note: file graphs/univar_fdpr_b.eps not found)
+(file graphs/univar_fdpr_b.eps written in EPS format)
+
+. graph bar (count),over(conj)  b1title("Conjunctivitis Occurrence") ytitle("Number") title("Distribution of Neonates by Conjunctivitis Occurrence")
+
+. graph export graphs/univar_conj.eps,replace
+(note: file graphs/univar_conj.eps not found)
+(file graphs/univar_conj.eps written in EPS format)
+
+. graph bar (count),over(bsi)  b1title("Bacterial Skin Infection Occurrence") ytitle("Number") title("Distribution of Neonates by Bacterial Skin Infection Occurrence")
+
+. graph export graphs/univar_bsi.eps,replace
+(note: file graphs/univar_bsi.eps not found)
+(file graphs/univar_bsi.eps written in EPS format)
+
+. graph bar (count),over(abjaun) b1title("Abnormal Jaundice Occurrence") ytitle("Number") title("Distribution of Neonates by Abnormal Jaundice Occurrence") 
+
+. graph export graphs/univar_abjaun.eps,replace
+(note: file graphs/univar_abjaun.eps not found)
+(file graphs/univar_abjaun.eps written in EPS format)
+
+. graph bar (count),over(jaun) b1title("Jaundice Occurrence") ytitle("Number") title("Distribution of Neonates by Jaundice Occurrence") 
+
+. graph export graphs/univar_jaun.eps,replace
+(note: file graphs/univar_jaun.eps not found)
+(file graphs/univar_jaun.eps written in EPS format)
+
+. graph bar (count),over(pnm)  b1title("Pneumonia Occurrence") ytitle("Number") title("Distribution of Neonates by Pneumonia Occurrence")
+
+. graph export graphs/univar_pnm.eps,replace
+(note: file graphs/univar_pnm.eps not found)
+(file graphs/univar_pnm.eps written in EPS format)
+
+. graph bar (count),over(uri)  b1title("Upper Respiratory Infection Occurrence") ytitle("Number") title("Distribution of Neonates by Upper Respiratory Infection Occurrence")
+
+. graph export graphs/univar_uri.eps,replace
+(note: file graphs/univar_uri.eps not found)
+(file graphs/univar_uri.eps written in EPS format)
+
+. graph bar (count),over(umb_sep)  b1title("Umbilical Sepsis Occurrence") ytitle("Number") title("Distribution of Neonates by Umbilical Sepsis Occurrence")
+
+. graph export graphs/univar_umb_sep.eps,replace
+(note: file graphs/univar_umb_sep.eps not found)
+(file graphs/univar_umb_sep.eps written in EPS format)
+
+. 
+. hist wt1, normal xtitle("Weight at Day 1") title("Histogram of Neonates by Weight on Day 1")
+(bin=38, start=.75, width=.10394737)
+
+. graph export graphs/univar_wt1.eps,replace
+(note: file graphs/univar_wt1.eps not found)
+(file graphs/univar_wt1.eps written in EPS format)
+
+. hist wt7, normal xtitle("Weight at Day 7") title("Histogram of Neonates by Weight on Day 7")
+(bin=38, start=.2, width=.22505263)
+
+. graph export graphs/univar_wt7.eps,replace
+(note: file graphs/univar_wt7.eps not found)
+(file graphs/univar_wt7.eps written in EPS format)
+
+. hist wt15, normal xtitle("Weight at Day 15") title("Histogram of Neonates by Weight on Day 15")
+(bin=38, start=1, width=.21052632)
+
+. graph export graphs/univar_wt15.eps,replace
+(note: file graphs/univar_wt15.eps not found)
+(file graphs/univar_wt15.eps written in EPS format)
+
+. hist wt28, normal  xtitle("Weight at Day 28") title("Histogram of Neonates by Weight on Day 28")
+(bin=38, start=1.125, width=.10855263)
+
+. graph export graphs/univar_wt28.eps,replace
+(note: file graphs/univar_wt28.eps not found)
+(file graphs/univar_wt28.eps written in EPS format)
+
+. hist chwt_128, normal xtitle("Weight Change From D1-28") title("Histogram of Neonates by Weight Change from D1-28")
+(bin=38, start=-975, width=86.842105)
+
+. graph export graphs/univar_chwt28.eps,replace
+(note: file graphs/univar_chwt28.eps not found)
+(file graphs/univar_chwt28.eps written in EPS format)
+
+. hist growth_vel, normal xtitle("Growth velocity (kg/g/d)") title("Histogram of Neonates by Weight Change from D1-28")
+(bin=38, start=-16.196012, width=1.8673136)
+
+. graph export graphs/univar_g_vel.eps,replace
+(note: file graphs/univar_g_vel.eps not found)
+(file graphs/univar_g_vel.eps written in EPS format)
+
+. 
+. log close
+      name:  <unnamed>
+       log:  /home/rayansud/SEARCH/logs/univar.log
+  log type:  text
+ closed on:   7 Jun 2021, 04:46:41
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
