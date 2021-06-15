@@ -4,7 +4,7 @@ set more off
 capture log close
 log using logs/cleaning.log, text replace
 
-use data/original_data.dta
+use data/new_data.dta
 
 *analysis.do - DO FILE TO ANALYZE NEWBORN WEIGHT GAIN
 
