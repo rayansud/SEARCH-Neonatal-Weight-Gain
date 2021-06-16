@@ -89,7 +89,6 @@ label var isfad "CHW present at delivery"
 label var ancvisit "ANC visits to mother"
 label var nbvisit "CHW visits to baby"
 
-
 **********Cleaning: Recoding data***********
 
 *Recode missing continuous vars from 0 to "."
@@ -164,8 +163,9 @@ replace program_year = "2017-18" if delivery_date >= date("01Apr2017","DMY") & d
 replace program_year = "2018-19" if delivery_date >= date("01Apr2018","DMY") & delivery_date < date("01Apr2019","DMY")
 replace program_year = "2019-20" if delivery_date >= date("01Apr2019","DMY") & delivery_date < date("01Apr2020","DMY")
 replace program_year = "2020-21" if delivery_date >= date("01Apr2020","DMY") & delivery_date < date("01Apr2021","DMY")
-label var program "Program Year of Birth, from April - March"
+label var program_year "Program Year of Birth, from April - March"
 
+recode isfad (0=0)(1=1) (2=0)
 recode twin (0=0)(1=1) (2=0)
 recode hrisk1 (0=0)(1=1) (2=0)
 
@@ -191,6 +191,7 @@ recode tobause (0=0)(1=1) (2=0)
 
 label def binary_label 0 "No" 1 "Yes"
 
+label val isfad binary_label
 label val twin binary_label
 label val hrisk1 binary_label
 
@@ -349,6 +350,14 @@ label def para5 0 "0 children" 1 "1 child" 2 "2 children" 3 "3 children" 4 ">=4 
 label val para5 para5
 
 gen morbidity_num = ba + cong + umbi + conj + unfev + hemo + hypo + failu + neo + pnm_ch + bsi + jaun + boh
+
+gen CHW_visits = .
+replace CHW_visits = 0 if nbvisit==0
+replace CHW_visits = 1 if nbvisit>=1 & nbvisit<=5
+replace CHW_visits = 2 if nbvisit>=6 & nbvisit<=10
+replace CHW_visits = 3 if nbvisit>10
+label var CHW_visits "Number of CHW visits"
+label def CHW_visits 0 "0 visits" 1 "1-5 visits" 2 "5-10 visits" 3 "10+ visits"
 
 compress
 save data/clean_data.dta,replace
