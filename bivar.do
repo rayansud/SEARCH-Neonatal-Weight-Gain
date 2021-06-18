@@ -15,13 +15,13 @@ foreach cont_var in gage wt1_g year_birth {
    esttab chwt gr exp
 
   graph twoway (lfitci chwt_128 `cont_var') (scatter chwt_128 `cont_var'),xtitle("`varlabel'") ytitle("Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight vs. `varlabel'")
-  graph export stata_graphs/bivar_ch_`cont_var'.eps,replace
+  graph export graphs/bivar_ch_`cont_var'.eps,replace
 
   graph twoway (lfitci growth_vel `cont_var') (scatter chwt_128 `cont_var'),xtitle("`varlabel'") ytitle("(Linear) Neonate Growth Velocity (g/kg/day)") title("Change in Neonate Weight vs. `varlabel'")
-  graph export stata_graphs/bivar_gr_`cont_var'.eps,replace
+  graph export graphs/bivar_gr_`cont_var'.eps,replace
 
   graph twoway (lfitci exp_growth_vel `cont_var') (scatter chwt_128 `cont_var'),xtitle("`varlabel'") ytitle("(Exponential) Neonate Growth Velocity (g/kg/day)") title("Change in Neonate Weight vs. `varlabel'")
-  graph export stata_graphs/bivar_exp_`cont_var'.eps,replace
+  graph export graphs/bivar_exp_`cont_var'.eps,replace
 
 }
 
@@ -36,11 +36,11 @@ foreach bi_var in female institutional_delivery twin hrisk1 feed_b feed_m ba con
   esttab . using tables/exp_bivar_`bi_var'.rtf,replace noobs cells("mu_1" "mu_2" "b(star)" "se(par)")
 
   graph bar chwt_128,over(`bi_var') b1title("`bi_var'") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by `bi_var'")
-  graph export stata_graphs/bivar_ch_`bi_var'.eps,replace
+  graph export graphs/bivar_ch_`bi_var'.eps,replace
   graph bar growth_vel,over(`bi_var') b1title("`bi_var'") ytitle("(Linear) Neonate Growth Velocity (g/kg/day)") title("(Linear) Neonate Growth Velocity by `bi_var'")
-  graph export stata_graphs/bivar_gr_`bi_var'.eps,replace
+  graph export graphs/bivar_gr_`bi_var'.eps,replace
   graph bar exp_growth_vel,over(`bi_var') b1title("`bi_var'") ytitle("(Exponential) Neonate Growth Velocity (g/kg/day)") title("(Exponential) Neonate Growth Velocity by `bi_var'")
-  graph export stata_graphs/bivar_exp_`bi_var'.eps,replace
+  graph export graphs/bivar_exp_`bi_var'.eps,replace
 }
 
 
@@ -51,12 +51,12 @@ foreach multi_var in program_year CHW_visits m_edu4 f_edu4 grav4 para5 morbidity
   asdoc oneway exp_growth_vel `multi_var',tabulate noobs nofreq save(docs/bivar.doc)
 
   graph bar chwt_128,over(`multi_var') b1title("`multi_var'") ytitle("Mean Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight by `multi_var'")
-  graph export stata_graphs/bivar_`multi_var'.eps,replace
-  graph export stata_graphs/bivar_ch_`multi_var'.eps,replace
+  graph export graphs/bivar_`multi_var'.eps,replace
+  graph export graphs/bivar_ch_`multi_var'.eps,replace
   graph bar growth_vel,over(`multi_var') b1title("`multi_var'") ytitle("Neonate Growth Velocity (kg/g/day)") title("Neonate Growth Velocity by `multi_var'")
-  graph export stata_graphs/bivar_gr_`multi_var'.eps,replace
+  graph export graphs/bivar_gr_`multi_var'.eps,replace
   graph bar exp_growth_vel,over(`multi_var') b1title("`multi_var'") ytitle("(Exp) Neonate Growth Velocity (kg/g/day)") title("(Exp) Neonate Growth Velocity by `multi_var'")
-  graph export stata_graphs/bivar_exp_`multi_var'.eps,replace
+  graph export graphs/bivar_exp_`multi_var'.eps,replace
 }
 
 *Profile plots
