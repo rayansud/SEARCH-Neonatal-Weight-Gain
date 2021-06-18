@@ -93,7 +93,6 @@ gen wt21 = wt21_g
 
 reshape long wt,i(id) j(day_wt)
 *Setting as panel data
-xtset id day_wt
 
 
 *Relabel to get rid of special chars
