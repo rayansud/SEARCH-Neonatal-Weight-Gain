@@ -4,7 +4,7 @@ set more off
 capture log close
 log using logs/cleaning.log, text replace
 
-use data/new_data.dta
+use data/all_matched_data
 
 *analysis.do - DO FILE TO ANALYZE NEWBORN WEIGHT GAIN
 
@@ -40,7 +40,7 @@ label var heduct "father's education"
 label var moccup "mother's occupation"
 label var hoccup "father's occupation"
 
-label var inde "Pregnancy information not known"
+label var inde "Gestational Age not known"
 
 *Pregnancy info
 label var grav_m "completed months of pregnancy"
@@ -75,7 +75,7 @@ label var unfev "unexplained fever"
 label var hemo "hemorrhage"
 label var hypo "hypothermia"
 label var failu "failure to gain weight"
-label var neo "neonatal sepsis"
+label var neosep "neonatal sepsis"
 label var pnm_ch "pneumonia only"
 label var bsi "bacterial skin infxn"
 label var jaun "jaundice"
@@ -88,6 +88,8 @@ label var nbdth_d "day of death in neon pd"
 label var isfad "CHW present at delivery"
 label var ancvisit "ANC visits to mother"
 label var nbvisit "CHW visits to baby"
+
+
 
 **********Cleaning: Recoding data***********
 
@@ -132,40 +134,11 @@ replace female = 1 if sex == 2
 label def female 0 "male" 1 "female"
 label val female female
 
-gen delivery_date = date(date4,"YMD")
-label var delivery_date "Delivery Date"
 gen year_birth = year(delivery_date)
 label var year_birth "Calendar Year of Birth"
 
-gen program_year = "None"
-replace program_year = "1996-97" if delivery_date >= date("01Apr1996","DMY") & delivery_date < date("01Apr1997","DMY")
-replace program_year = "1997-98" if delivery_date >= date("01Apr1997","DMY") & delivery_date < date("01Apr1998","DMY")
-replace program_year = "1998-99" if delivery_date >= date("01Apr1998","DMY") & delivery_date < date("01Apr1999","DMY")
-replace program_year = "1999-00" if delivery_date >= date("01Apr1999","DMY") & delivery_date < date("01Apr2000","DMY")
-replace program_year = "2000-01" if delivery_date >= date("01Apr2000","DMY") & delivery_date < date("01Apr2001","DMY")
-replace program_year = "2001-02" if delivery_date >= date("01Apr2001","DMY") & delivery_date < date("01Apr2002","DMY")
-replace program_year = "2002-03" if delivery_date >= date("01Apr2002","DMY") & delivery_date < date("01Apr2003","DMY")
-replace program_year = "2003-04" if delivery_date >= date("01Apr2003","DMY") & delivery_date < date("01Apr2004","DMY")
-replace program_year = "2004-05" if delivery_date >= date("01Apr2004","DMY") & delivery_date < date("01Apr2005","DMY")
-replace program_year = "2005-06" if delivery_date >= date("01Apr2005","DMY") & delivery_date < date("01Apr2006","DMY")
-replace program_year = "2006-07" if delivery_date >= date("01Apr2006","DMY") & delivery_date < date("01Apr2007","DMY")
-replace program_year = "2007-08" if delivery_date >= date("01Apr2007","DMY") & delivery_date < date("01Apr2008","DMY")
-replace program_year = "2008-09" if delivery_date >= date("01Apr2008","DMY") & delivery_date < date("01Apr2009","DMY")
-replace program_year = "2009-10" if delivery_date >= date("01Apr2009","DMY") & delivery_date < date("01Apr2010","DMY")
-replace program_year = "2010-11" if delivery_date >= date("01Apr2010","DMY") & delivery_date < date("01Apr2011","DMY")
-replace program_year = "2011-12" if delivery_date >= date("01Apr2011","DMY") & delivery_date < date("01Apr2012","DMY")
-replace program_year = "2012-13" if delivery_date >= date("01Apr2012","DMY") & delivery_date < date("01Apr2013","DMY")
-replace program_year = "2013-14" if delivery_date >= date("01Apr2013","DMY") & delivery_date < date("01Apr2014","DMY")
-replace program_year = "2014-15" if delivery_date >= date("01Apr2014","DMY") & delivery_date < date("01Apr2015","DMY")
-replace program_year = "2015-16" if delivery_date >= date("01Apr2015","DMY") & delivery_date < date("01Apr2016","DMY")
-replace program_year = "2016-17" if delivery_date >= date("01Apr2016","DMY") & delivery_date < date("01Apr2017","DMY")
-replace program_year = "2017-18" if delivery_date >= date("01Apr2017","DMY") & delivery_date < date("01Apr2018","DMY")
-replace program_year = "2018-19" if delivery_date >= date("01Apr2018","DMY") & delivery_date < date("01Apr2019","DMY")
-replace program_year = "2019-20" if delivery_date >= date("01Apr2019","DMY") & delivery_date < date("01Apr2020","DMY")
-replace program_year = "2020-21" if delivery_date >= date("01Apr2020","DMY") & delivery_date < date("01Apr2021","DMY")
-label var program_year "Program Year of Birth, from April - March"
-
 recode isfad (0=0)(1=1) (2=0)
+recode delay (0=0)(1=1) (2=0)
 recode twin (0=0)(1=1) (2=0)
 recode hrisk1 (0=0)(1=1) (2=0)
 
@@ -182,8 +155,8 @@ recode unfev (0=0)(1=1) (2=0)
 recode hemo (0=0)(1=1) (2=0)
 recode hypo (0=0)(1=1) (2=0)
 recode failu (0=0)(1=1) (2=0)
-recode neo (0=0)(1=1) (2=0)
-recode pnm_ch (0=0)(1=1) (2=0)
+recode neosep (0=0)(1=1) (2=0) (.=0)
+recode pnm_ch (0=0)(1=1) (2=0) (.=0)
 recode bsi (0=0)(1=1) (2=0)
 recode jaun (0=0)(1=1) (2=0)
 recode boh (0=0)(1=1) (2=0)
@@ -192,6 +165,7 @@ recode tobause (0=0)(1=1) (2=0)
 label def binary_label 0 "No" 1 "Yes"
 
 label val isfad binary_label
+label val delay binary_label
 label val twin binary_label
 label val hrisk1 binary_label
 
@@ -208,7 +182,7 @@ label val unfev binary_label
 label val hemo binary_label
 label val hypo binary_label
 label val failu binary_label
-label val neo binary_label
+label val neosep binary_label
 label val pnm_ch binary_label
 label val bsi binary_label
 label val jaun binary_label
@@ -222,8 +196,11 @@ drop moccup hoccup
 drop wtdiff
 *Unneccessary
 
-drop vr_no m_resi
+drop vr_no m_resi villno bplace
 *Not needed
+
+drop neo
+*old data
 
 drop aspnm
 *Only 15 cases total
@@ -234,23 +211,23 @@ drop hmd
 drop mpre
 *same data as in gestational age, and coarser, so dropped
 
-drop b_feed1 delay
-*drop b_feed1,delay - just using feed_m and feed_b for now
+drop b_feed1
+*drop b_feed1 - just using feed_m and feed_b for now
 
 drop m_ht ancvisit
 *data present only after 2008
 
 drop inde
-* unknown
+* not needed
 
 **********Cleaning: Dropping Data Points***********
-*drop babies after the 2020 program year
-drop if program_year == "2020-21" | program_year =="None"
-
 *drop deaths
-drop if nbdth==1
+drop if nbdth==1 | ch_dth == 1
 drop nbdth_d
 drop nbdth
+drop ch_dth
+drop dthday
+
 
 *drop babies who have no d1 weight
 drop if bwt==.
@@ -258,9 +235,9 @@ drop if bwt==.
 drop if wt28==.
 
 *Recode extreme outliers to missing
-drop if bwt > 4.5 | bwt < 1
-drop if wt28 > 5 | wt28 < 1.5
-
+drop if bwt > 4.5
+drop if wt28 > 6
+* Keeping outliers - small number so unlikely to affect
 
 *TODO: check correlations to dropped variables
 **********Cleaning: Generating convenient variables***********
@@ -282,18 +259,20 @@ gen chwt_17= wt7_g-wt1_g
 label var chwt_17 "weight change from birth to d7 (g)"
 gen chwt_715= wt15_g-wt7_g
 label var chwt_715 "weight change from d7 to d15 (g)"
-gen chwt_1528= wt28_g-wt15_g
-label var chwt_1528 "weight change from d15 to d28 (g)"
+gen chwt_1521= wt21_g-wt15_g
+label var chwt_1521 "weight change from d15 to d21 (g)"
+gen chwt_2128= wt28_g-wt21_g
+label var chwt_2128 "weight change from d21 to d28 (g)"
 gen chwt_128=wt28_g-wt1_g
 label var chwt_128 "weight change from birth to d28 (g)"
 
 *Generate variable to look at linear growth velocity
 gen growth_vel = (chwt_128/bwt)/28
-label var growth_vel "Growth velocity in kg/g/d"
+label var growth_vel "Growth velocity in g/kg/d"
 
 *Patel et al exponential estimate of GV
 gen exp_growth_vel = 1000*log(wt28_g/wt1_g)/28
-label var exp_growth_vel "Exponential growth velocity in kg/g/d"
+label var exp_growth_vel "Exponential growth velocity (g/kg/d)"
 
 *Generate new variable for gestational age that combines days and months
 *convert months to weeks:
@@ -349,7 +328,7 @@ label var para5 "Parity in 5 Categories"
 label def para5 0 "0 children" 1 "1 child" 2 "2 children" 3 "3 children" 4 ">=4 children"
 label val para5 para5
 
-gen morbidity_num = ba + cong + umbi + conj + unfev + hemo + hypo + failu + neo + pnm_ch + bsi + jaun + boh
+gen morbidity_num = ba + cong + umbi + conj + unfev + hemo + hypo + neosep + pnm_ch + bsi + jaun + boh
 
 gen CHW_visits = .
 replace CHW_visits = 0 if nbvisit==0
@@ -358,6 +337,7 @@ replace CHW_visits = 2 if nbvisit>=6 & nbvisit<=10
 replace CHW_visits = 3 if nbvisit>10
 label var CHW_visits "Number of CHW visits"
 label def CHW_visits 0 "0 visits" 1 "1-5 visits" 2 "5-10 visits" 3 "10+ visits"
+label val CHW_visits CHW_visits
 
 compress
 save data/clean_data.dta,replace
