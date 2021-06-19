@@ -17,10 +17,10 @@ foreach cont_var in gage wt1_g year_birth {
   graph twoway (lfitci chwt_128 `cont_var') (scatter chwt_128 `cont_var'),xtitle("`varlabel'") ytitle("Change in Neonate Weight, D1-28 (g)") title("Change in Neonate Weight vs. `varlabel'")
   graph export graphs/bivar_ch_`cont_var'.eps,replace
 
-  graph twoway (lfitci growth_vel `cont_var') (scatter chwt_128 `cont_var'),xtitle("`varlabel'") ytitle("(Linear) Neonate Growth Velocity (g/kg/day)") title("Change in Neonate Weight vs. `varlabel'")
+  graph twoway (lfitci growth_vel `cont_var') (scatter growth_vel `cont_var'),xtitle("`varlabel'") ytitle("(Linear) Neonate Growth Velocity (g/kg/day)") title("Change in Neonate Weight vs. `varlabel'")
   graph export graphs/bivar_gr_`cont_var'.eps,replace
 
-  graph twoway (lfitci exp_growth_vel `cont_var') (scatter chwt_128 `cont_var'),xtitle("`varlabel'") ytitle("(Exponential) Neonate Growth Velocity (g/kg/day)") title("Change in Neonate Weight vs. `varlabel'")
+  graph twoway (lfitci exp_growth_vel `cont_var') (scatter exp_growth_vel `cont_var'),xtitle("`varlabel'") ytitle("(Exponential) Neonate Growth Velocity (g/kg/day)") title("Change in Neonate Weight vs. `varlabel'")
   graph export graphs/bivar_exp_`cont_var'.eps,replace
 
 }
@@ -88,12 +88,13 @@ use data/clean_data.dta
 
 
 *Profile plots with by day
-gen wt1 = wt1_g
-gen wt7 = wt7_g
-gen wt15 = wt15_g
-gen wt21 = wt21_g
+gen pwt1 = wt1_g
+gen pwt7 = wt7_g
+gen pwt15 = wt15_g
+gen pwt21 = wt21_g
+gen pwt28 = wt28_g
 
-reshape long wt,i(id) j(day_wt)
+reshape long pwt,i(id) j(day_wt)
 *Setting as panel data
 
 
@@ -105,20 +106,20 @@ label val f_edu4 f_edu4_l
 
 save data/panel-format.dta,replace
 
-collapse (mean) wt,by(day_wt female)
-xtline wt,overlay t(day_wt) i(female) title("Growth Trajectory by Sex") xtitle("Day of Measurement") ytitle("Mean Weight (g)") note("only using complete data")
+collapse (mean) pwt,by(day_wt female)
+xtline pwt,overlay t(day_wt) i(female) title("Growth Trajectory by Sex") xtitle("Day of Measurement") ytitle("Mean Weight (g)") note("only using complete data")
 graph export graphs/bivar_trajectory_sex.eps,replace
 clear
 use data/panel-format.dta
 
-collapse (mean) wt,by(day_wt m_edu4)
-xtline wt,overlay t(day_wt) i(m_edu4) title("Growth Trajectory by Mother Education") xtitle("Day of Measurement") ytitle("Mean Weight (g)") note("only using complete data")
+collapse (mean) pwt,by(day_wt m_edu4)
+xtline pwt,overlay t(day_wt) i(m_edu4) title("Growth Trajectory by Mother Education") xtitle("Day of Measurement") ytitle("Mean Weight (g)") note("only using complete data")
 graph export graphs/bivar_trajectory_m_edu.eps,replace
 clear
 use data/panel-format.dta
 
-collapse (mean) wt,by(day_wt f_edu4)
-xtline wt,overlay t(day_wt) i(f_edu4) title("Growth Trajectory by Father Education") xtitle("Day of Measurement") ytitle("Mean Weight (g)") note("only using complete data")
+collapse (mean) pwt,by(day_wt f_edu4)
+xtline pwt,overlay t(day_wt) i(f_edu4) title("Growth Trajectory by Father Education") xtitle("Day of Measurement") ytitle("Mean Weight (g)") note("only using complete data")
 graph export graphs/bivar_trajectory_f_edu.eps,replace
 clear
 use data/panel-format.dta

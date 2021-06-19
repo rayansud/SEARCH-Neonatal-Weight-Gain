@@ -2,6 +2,15 @@ clear all
 use data/clean_data.dta
 **********Analysis: Generate Univar summaries***********
 
+
+hist wt1_g, frequency addlabels xtitle("Birth Weight (g)") title("Histogram of Neonates by Birth Weight (g)") width(500) start(0) xlabel(0 500 1000 1500 2000 2500 3000 3500 4000 4500 5000 5500 6000,angle(vertical))
+graph save graphs/g1.gph
+hist wt28_g, frequency addlabels xtitle("Day 28 Weight (g)") title("Histogram of Neonates by Day 28 Weight (g)") width(500) start(0)  xlabel(0 500 1000 1500 2000 2500 3000 3500 4000 4500 5000 5500 6000,angle(vertical))
+graph save graphs/g2.gph
+graph combine graphs/g1.gph graphs/g2.gph,rows(1) cols(2)
+graph export graphs/outliers.eps,replace
+!rm -rf graphs/*.gph
+
 *Univar graphs
 hist gage, normal xtitle("Gestational Age (weeks)") title("Histogram of Neonates by Gestational Age in Weeks")
 graph export stata_graphs/univar_gage.eps,replace
