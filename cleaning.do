@@ -1,3 +1,13 @@
+* Do-File 2/6
+* SEARCH - HBNC Neonatal Weight Gain Analysis
+* Written by Rayan Sud, June 2021
+* Based on early-draft code by Rushina Cholera, July 2010
+
+
+* cleaning.do
+/* This file cleans and labels data for further analysis.
+*/
+
 clear all
 set more off
 
@@ -6,23 +16,7 @@ log using logs/cleaning.log, text replace
 
 use data/all_matched_data
 
-*analysis.do - DO FILE TO ANALYZE NEWBORN WEIGHT GAIN
-
-*Created JULY 23, 2010
-*Author: Rushina Cholera
-*SEARCH, Gadchiroli, India
-
-*Updated MAY 22, 2021
-*By: Rayan Sud
-*SEARCH, Gadchiroli, India
-
-**********Cleaning: Labelling***********
-*TODO: check for impossible values in all variables and set to missing
-*e.g. -  grav_m too low
-
-
 *Label dataset variables
-
 *ID:
 label var srno "serial number"
 label var villno "home village number"
@@ -109,7 +103,7 @@ recode grav_m 5=.
 recode gravida (0=.)
 *gravidity= # of times a woman has been pregnant and INCLUDES current preg. so no one would be 0. 0 are missing.
 
-*Recode & label education
+*Recode & label education into categories
 recode meduct (0=.) (1=0) (2=1) (3=2) (4=3) (5=4) (6=5) (7=6)
 recode heduct (0=.) (1=0) (2=1) (3=2) (4=3) (5=4) (6=5) (7=6)
 label define meduct 0 "illiterate" 1 "literate" 2 "1-4 primary educ" 3 "5-7" 4 "8-10" 5 "11-12" 6 ">12"
@@ -126,8 +120,6 @@ label var institutional_delivery "Institutional delivery"
 label def institutional_delivery 0 "Home delivery" 1 "Hospital/PHC delivery"
 label val institutional_delivery institutional_delivery
 
-*Recoding comorbities. Assumptions: missing data, or "incorrect code" data, means comorbidity not present.
-*IE - Anything except a "yes" is interpreted as a "no"
 gen female = .
 replace female = 0 if sex == 1
 replace female = 1 if sex == 2
@@ -136,6 +128,9 @@ label val female female
 
 gen year_birth = year(delivery_date)
 label var year_birth "Calendar Year of Birth"
+
+*Recoding comorbities. Assumptions: missing data, or "incorrect code" data, means comorbidity not present.
+*IE - Anything except a "yes" is interpreted as a "no"
 
 recode isfad (0=0)(1=1) (2=0)
 recode delay (0=0)(1=1) (2=0)
@@ -162,6 +157,7 @@ recode jaun (0=0)(1=1) (2=0)
 recode boh (0=0)(1=1) (2=0)
 recode tobause (0=0)(1=1) (2=0)
 
+* Labelling all comorbities and binary variables with Yes/No
 label def binary_label 0 "No" 1 "Yes"
 
 label val isfad binary_label
@@ -239,7 +235,6 @@ drop if bwt > 4.5
 drop if wt28 > 6
 * Keeping outliers - small number so unlikely to affect
 
-*TODO: check correlations to dropped variables
 **********Cleaning: Generating convenient variables***********
 
 *Convert weight from kg to g
@@ -270,7 +265,7 @@ label var chwt_128 "weight change from birth to d28 (g)"
 gen growth_vel = (chwt_128/bwt)/28
 label var growth_vel "Growth velocity in g/kg/d"
 
-*Patel et al exponential estimate of GV
+*Patel et al exponential estimate of Growth velocity (Reference: https://doi.org/10.1542/peds.2004-1699)
 gen exp_growth_vel = 1000*log(wt28_g/wt1_g)/28
 label var exp_growth_vel "Exponential growth velocity (g/kg/d)"
 
@@ -329,6 +324,7 @@ label def para5 0 "0 children" 1 "1 child" 2 "2 children" 3 "3 children" 4 ">=4 
 label val para5 para5
 
 gen morbidity_num = ba + cong + umbi + conj + unfev + hemo + hypo + neosep + pnm_ch + bsi + jaun + boh
+label var morbidity_num "Number of Morbidities"
 
 gen CHW_visits = .
 replace CHW_visits = 0 if nbvisit==0
