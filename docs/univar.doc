@@ -1,0 +1,1195 @@
+{\rtf1\ansi\deff0 {\fonttbl{\f0\fnil Garamond;}}
+{\info {\author .}{\company .}{\title .}}
+\deflang1033\plain\fs20
+{\footer\pard\qc\plain\f0\fs20\chpgn\par}
+{
+{
+{\b\qc\line Descriptive Statistics }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3800\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx5200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx6600\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx8000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx9400
+\ql { {Variable}}\cell
+\qr { {Obs}}\cell
+\qr { {Mean}}\cell
+\qr { {Std. Dev.}}\cell
+\qr { {Min}}\cell
+\qr { {Max}}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx3000\cellx3800\cellx5200\cellx6600\cellx8000\cellx9400
+\ql { {Gestational Age in weeks}}\cell
+\qr {{15746}}\cell
+\qr {{39.448}}\cell
+\qr {{1.958}}\cell
+\qr {{27.088}}\cell
+\qr {{55.605}}\cell
+\row
+\ql { {weight at birth in grams}}\cell
+\qr {{16214}}\cell
+\qr {{2615.875}}\cell
+\qr {{416.452}}\cell
+\qr {{750}}\cell
+\qr {{4500}}\cell
+\row
+\ql { {weight at d7 in grams}}\cell
+\qr {{13950}}\cell
+\qr {{2632.151}}\cell
+\qr {{410.423}}\cell
+\qr {{200}}\cell
+\qr {{8752}}\cell
+\row
+\ql { {weight at d15 in grams}}\cell
+\qr {{15587}}\cell
+\qr {{2849.42}}\cell
+\qr {{455.874}}\cell
+\qr {{1000}}\cell
+\qr {{9000}}\cell
+\row
+\ql { {weight at d21 in grams}}\cell
+\qr {{5489}}\cell
+\qr {{2833.39}}\cell
+\qr {{541.218}}\cell
+\qr {{800}}\cell
+\qr {{9500}}\cell
+\row
+\ql { {weight at d28 in grams}}\cell
+\qr {{16214}}\cell
+\qr {{3239.483}}\cell
+\qr {{518.12}}\cell
+\qr {{140}}\cell
+\qr {{5275}}\cell
+\row
+\ql { {weight change from birth to d7 (}}\cell
+\qr {{13950}}\cell
+\qr {{30.475}}\cell
+\qr {{152.658}}\cell
+\qr {{-3050}}\cell
+\qr {{5977}}\cell
+\row
+\ql { {weight change from d7 to d15 (g)}}\cell
+\qr {{13757}}\cell
+\qr {{219.77}}\cell
+\qr {{177.914}}\cell
+\qr {{-5252}}\cell
+\qr {{6750}}\cell
+\row
+\ql { {weight change from d15 to d21 (g}}\cell
+\qr {{5277}}\cell
+\qr {{173.482}}\cell
+\qr {{167.251}}\cell
+\qr {{-1000}}\cell
+\qr {{5100}}\cell
+\row
+\ql { {weight change from d21 to d28 (g}}\cell
+\qr {{5489}}\cell
+\qr {{209.328}}\cell
+\qr {{196.751}}\cell
+\qr {{-6775}}\cell
+\qr {{1300}}\cell
+\row
+\ql { {weight change from birth to d28 }}\cell
+\qr {{16214}}\cell
+\qr {{623.608}}\cell
+\qr {{296.401}}\cell
+\qr {{-1250}}\cell
+\qr {{2625}}\cell
+\row
+\ql { {Growth velocity in g/kg/d}}\cell
+\qr {{16214}}\cell
+\qr {{8.71}}\cell
+\qr {{4.465}}\cell
+\qr {{-31.868}}\cell
+\qr {{125}}\cell
+\row
+\ql { {Exponential growth velocity (g/k}}\cell
+\qr {{16214}}\cell
+\qr {{7.617}}\cell
+\qr {{3.583}}\cell
+\qr {{-79.588}}\cell
+\qr {{53.717}}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx9400{}\cell
+\row}
+
+{
+{\b\qc\line Tabulation of female  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {male}\cell
+\qr {8195}\cell
+\qr {50.54}\cell
+\qr {50.54}\cell
+\row
+\ql {female}\cell
+\qr {7978}\cell
+\qr {49.20}\cell
+\qr {99.75}\cell
+\row
+\ql {.}\cell
+\qr {41}\cell
+\qr {0.25}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of m_edu4  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2400\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx5400\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx6900
+\ql {Maternal Educ in 4 Categories}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx2400\cellx3900\cellx5400\cellx6900
+\ql {Illiterate}\cell
+\qr {2374}\cell
+\qr {14.64}\cell
+\qr {14.64}\cell
+\row
+\ql {1-4/Literate}\cell
+\qr {771}\cell
+\qr {4.76}\cell
+\qr {19.40}\cell
+\row
+\ql {5-10}\cell
+\qr {8393}\cell
+\qr {51.76}\cell
+\qr {71.16}\cell
+\row
+\ql {>=11}\cell
+\qr {3961}\cell
+\qr {24.43}\cell
+\qr {95.59}\cell
+\row
+\ql {.}\cell
+\qr {715}\cell
+\qr {4.41}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx2400\clbrdrt\brdrw10\brdrs\cellx3900\clbrdrt\brdrw10\brdrs\cellx5400\clbrdrt\brdrw10\brdrs\cellx6900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx6900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of f_edu4  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2400\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx5400\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx6900
+\ql {Paternal Educ in 4 Categories}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx2400\cellx3900\cellx5400\cellx6900
+\ql {Illiterate}\cell
+\qr {1755}\cell
+\qr {10.82}\cell
+\qr {10.82}\cell
+\row
+\ql {1-4/Literate}\cell
+\qr {1354}\cell
+\qr {8.35}\cell
+\qr {19.17}\cell
+\row
+\ql {5-10}\cell
+\qr {7488}\cell
+\qr {46.18}\cell
+\qr {65.36}\cell
+\row
+\ql {>=11}\cell
+\qr {4877}\cell
+\qr {30.08}\cell
+\qr {95.44}\cell
+\row
+\ql {.}\cell
+\qr {740}\cell
+\qr {4.56}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx2400\clbrdrt\brdrw10\brdrs\cellx3900\clbrdrt\brdrw10\brdrs\cellx5400\clbrdrt\brdrw10\brdrs\cellx6900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx6900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of grav4  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1600\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2800\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx4000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx5200
+\ql {Gravidity in 4 Categories}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1600\cellx2800\cellx4000\cellx5200
+\ql {1st preg}\cell
+\qr {6431}\cell
+\qr {39.66}\cell
+\qr {39.66}\cell
+\row
+\ql {2nd preg}\cell
+\qr {5972}\cell
+\qr {36.83}\cell
+\qr {76.50}\cell
+\row
+\ql {3rd preg}\cell
+\qr {2184}\cell
+\qr {13.47}\cell
+\qr {89.97}\cell
+\row
+\ql {>=4 preg}\cell
+\qr {921}\cell
+\qr {5.68}\cell
+\qr {95.65}\cell
+\row
+\ql {.}\cell
+\qr {706}\cell
+\qr {4.35}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1600\clbrdrt\brdrw10\brdrs\cellx2800\clbrdrt\brdrw10\brdrs\cellx4000\clbrdrt\brdrw10\brdrs\cellx5200 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx5200\cell
+\row}
+
+{
+{\b\qc\line Tabulation of para5  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2400\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx5400\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx6900
+\ql {Parity in 5 Categories}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx2400\cellx3900\cellx5400\cellx6900
+\ql {0 children}\cell
+\qr {7390}\cell
+\qr {45.58}\cell
+\qr {45.58}\cell
+\row
+\ql {1 child}\cell
+\qr {6086}\cell
+\qr {37.54}\cell
+\qr {83.11}\cell
+\row
+\ql {2 children}\cell
+\qr {1965}\cell
+\qr {12.12}\cell
+\qr {95.23}\cell
+\row
+\ql {3 children}\cell
+\qr {539}\cell
+\qr {3.32}\cell
+\qr {98.56}\cell
+\row
+\ql {>=4 children}\cell
+\qr {234}\cell
+\qr {1.44}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx2400\clbrdrt\brdrw10\brdrs\cellx3900\clbrdrt\brdrw10\brdrs\cellx5400\clbrdrt\brdrw10\brdrs\cellx6900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx6900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of institutional_delivery  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx4200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx5700\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx7200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx8700
+\ql {Institutional delivery}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx4200\cellx5700\cellx7200\cellx8700
+\ql {Home delivery}\cell
+\qr {7939}\cell
+\qr {48.96}\cell
+\qr {48.96}\cell
+\row
+\ql {Hospital/PHC delivery}\cell
+\qr {8274}\cell
+\qr {51.03}\cell
+\qr {99.99}\cell
+\row
+\ql {.}\cell
+\qr {1}\cell
+\qr {0.01}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx4200\clbrdrt\brdrw10\brdrs\cellx5700\clbrdrt\brdrw10\brdrs\cellx7200\clbrdrt\brdrw10\brdrs\cellx8700 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx8700\cell
+\row}
+
+{
+{\b\qc\line Tabulation of twins  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {twins}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {11751}\cell
+\qr {72.47}\cell
+\qr {72.47}\cell
+\row
+\ql {Yes}\cell
+\qr {4463}\cell
+\qr {27.53}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of hrisk1  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {high risk on d1}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {13022}\cell
+\qr {80.31}\cell
+\qr {80.31}\cell
+\row
+\ql {Yes}\cell
+\qr {3192}\cell
+\qr {19.69}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of feed_b  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {baby feeding problem}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {15112}\cell
+\qr {93.20}\cell
+\qr {93.20}\cell
+\row
+\ql {Yes}\cell
+\qr {1102}\cell
+\qr {6.80}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of feed_m  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {mom feeding problem}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {15600}\cell
+\qr {96.21}\cell
+\qr {96.21}\cell
+\row
+\ql {Yes}\cell
+\qr {614}\cell
+\qr {3.79}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of ba  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {birth asphyxia}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {14978}\cell
+\qr {92.38}\cell
+\qr {92.38}\cell
+\row
+\ql {Yes}\cell
+\qr {1236}\cell
+\qr {7.62}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of cong  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {congenital anomaly}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {16152}\cell
+\qr {99.62}\cell
+\qr {99.62}\cell
+\row
+\ql {Yes}\cell
+\qr {62}\cell
+\qr {0.38}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of umbi  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {umbilical sepsis}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {16029}\cell
+\qr {98.86}\cell
+\qr {98.86}\cell
+\row
+\ql {Yes}\cell
+\qr {185}\cell
+\qr {1.14}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of conj  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {conjunctivitis}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {16104}\cell
+\qr {99.32}\cell
+\qr {99.32}\cell
+\row
+\ql {Yes}\cell
+\qr {110}\cell
+\qr {0.68}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of unfev  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {unexplained fever}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {15634}\cell
+\qr {96.42}\cell
+\qr {96.42}\cell
+\row
+\ql {Yes}\cell
+\qr {580}\cell
+\qr {3.58}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of hemo  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {hemorrhage}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {16162}\cell
+\qr {99.68}\cell
+\qr {99.68}\cell
+\row
+\ql {Yes}\cell
+\qr {52}\cell
+\qr {0.32}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of hypo  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {hypothermia}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {15766}\cell
+\qr {97.24}\cell
+\qr {97.24}\cell
+\row
+\ql {Yes}\cell
+\qr {448}\cell
+\qr {2.76}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of failu  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {failure to gain weight}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {14424}\cell
+\qr {88.96}\cell
+\qr {88.96}\cell
+\row
+\ql {Yes}\cell
+\qr {1790}\cell
+\qr {11.04}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of neosep  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {neonatal sepsis}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {15242}\cell
+\qr {94.01}\cell
+\qr {94.01}\cell
+\row
+\ql {Yes}\cell
+\qr {972}\cell
+\qr {5.99}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of pnm_ch  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {pneumonia only}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {15920}\cell
+\qr {98.19}\cell
+\qr {98.19}\cell
+\row
+\ql {Yes}\cell
+\qr {294}\cell
+\qr {1.81}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of bsi  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {bacterial skin infxn}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {15881}\cell
+\qr {97.95}\cell
+\qr {97.95}\cell
+\row
+\ql {Yes}\cell
+\qr {333}\cell
+\qr {2.05}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of jaun  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {jaundice}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {16009}\cell
+\qr {98.74}\cell
+\qr {98.74}\cell
+\row
+\ql {Yes}\cell
+\qr {205}\cell
+\qr {1.26}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of boh  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {bad obstetric history}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {14283}\cell
+\qr {88.09}\cell
+\qr {88.09}\cell
+\row
+\ql {Yes}\cell
+\qr {1931}\cell
+\qr {11.91}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of tobause  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {mother tobacco use in pregnancy}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {13528}\cell
+\qr {83.43}\cell
+\qr {83.43}\cell
+\row
+\ql {Yes}\cell
+\qr {2686}\cell
+\qr {16.57}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of program_year  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1400\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2450\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3500\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx4550
+\ql {Program Year of Birth, from April - March}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1400\cellx2450\cellx3500\cellx4550
+\ql {1996-97}\cell
+\qr {283}\cell
+\qr {1.75}\cell
+\qr {1.75}\cell
+\row
+\ql {1997-98}\cell
+\qr {444}\cell
+\qr {2.74}\cell
+\qr {4.48}\cell
+\row
+\ql {1998-99}\cell
+\qr {620}\cell
+\qr {3.82}\cell
+\qr {8.31}\cell
+\row
+\ql {1999-00}\cell
+\qr {840}\cell
+\qr {5.18}\cell
+\qr {13.49}\cell
+\row
+\ql {2000-01}\cell
+\qr {765}\cell
+\qr {4.72}\cell
+\qr {18.21}\cell
+\row
+\ql {2001-02}\cell
+\qr {697}\cell
+\qr {4.30}\cell
+\qr {22.51}\cell
+\row
+\ql {2002-03}\cell
+\qr {676}\cell
+\qr {4.17}\cell
+\qr {26.67}\cell
+\row
+\ql {2003-04}\cell
+\qr {640}\cell
+\qr {3.95}\cell
+\qr {30.62}\cell
+\row
+\ql {2004-05}\cell
+\qr {641}\cell
+\qr {3.95}\cell
+\qr {34.58}\cell
+\row
+\ql {2005-06}\cell
+\qr {694}\cell
+\qr {4.28}\cell
+\qr {38.86}\cell
+\row
+\ql {2006-07}\cell
+\qr {781}\cell
+\qr {4.82}\cell
+\qr {43.67}\cell
+\row
+\ql {2007-08}\cell
+\qr {617}\cell
+\qr {3.81}\cell
+\qr {47.48}\cell
+\row
+\ql {2008-09}\cell
+\qr {692}\cell
+\qr {4.27}\cell
+\qr {51.75}\cell
+\row
+\ql {2009-10}\cell
+\qr {715}\cell
+\qr {4.41}\cell
+\qr {56.16}\cell
+\row
+\ql {2010-11}\cell
+\qr {748}\cell
+\qr {4.61}\cell
+\qr {60.77}\cell
+\row
+\ql {2011-12}\cell
+\qr {719}\cell
+\qr {4.43}\cell
+\qr {65.20}\cell
+\row
+\ql {2012-13}\cell
+\qr {727}\cell
+\qr {4.48}\cell
+\qr {69.69}\cell
+\row
+\ql {2013-14}\cell
+\qr {725}\cell
+\qr {4.47}\cell
+\qr {74.16}\cell
+\row
+\ql {2014-15}\cell
+\qr {750}\cell
+\qr {4.63}\cell
+\qr {78.78}\cell
+\row
+\ql {2015-16}\cell
+\qr {769}\cell
+\qr {4.74}\cell
+\qr {83.53}\cell
+\row
+\ql {2016-17}\cell
+\qr {631}\cell
+\qr {3.89}\cell
+\qr {87.42}\cell
+\row
+\ql {2017-18}\cell
+\qr {731}\cell
+\qr {4.51}\cell
+\qr {91.93}\cell
+\row
+\ql {2018-19}\cell
+\qr {689}\cell
+\qr {4.25}\cell
+\qr {96.18}\cell
+\row
+\ql {2019-20}\cell
+\qr {620}\cell
+\qr {3.82}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1400\clbrdrt\brdrw10\brdrs\cellx2450\clbrdrt\brdrw10\brdrs\cellx3500\clbrdrt\brdrw10\brdrs\cellx4550 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx4550\cell
+\row}
+
+{
+{\b\qc\line Tabulation of CHW_visits  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3700\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx5200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx6700
+\ql {Number of CHW visits}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx2200\cellx3700\cellx5200\cellx6700
+\ql {0 visits}\cell
+\qr {2770}\cell
+\qr {17.08}\cell
+\qr {17.08}\cell
+\row
+\ql {1-5 visits}\cell
+\qr {3745}\cell
+\qr {23.10}\cell
+\qr {40.18}\cell
+\row
+\ql {5-10 visits}\cell
+\qr {8457}\cell
+\qr {52.16}\cell
+\qr {92.34}\cell
+\row
+\ql {10+ visits}\cell
+\qr {1242}\cell
+\qr {7.66}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx2200\clbrdrt\brdrw10\brdrs\cellx3700\clbrdrt\brdrw10\brdrs\cellx5200\clbrdrt\brdrw10\brdrs\cellx6700 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx6700\cell
+\row}
+
+{
+{\b\qc\line Tabulation of isfad  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {CHW present at delivery}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {6419}\cell
+\qr {39.59}\cell
+\qr {39.59}\cell
+\row
+\ql {Yes}\cell
+\qr {9795}\cell
+\qr {60.41}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of delay  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {delayed breast feeding problem}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {No}\cell
+\qr {16140}\cell
+\qr {99.54}\cell
+\qr {99.54}\cell
+\row
+\ql {Yes}\cell
+\qr {74}\cell
+\qr {0.46}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+{
+{\b\qc\line Tabulation of morbidity_num  }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
+\ql {}\cell
+\qr {Freq.}\cell
+\qr {Percent}\cell
+\qr {Cum.}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
+\ql {0}\cell
+\qr {11207}\cell
+\qr {69.12}\cell
+\qr {69.12}\cell
+\row
+\ql {1}\cell
+\qr {3882}\cell
+\qr {23.94}\cell
+\qr {93.06}\cell
+\row
+\ql {2}\cell
+\qr {883}\cell
+\qr {5.45}\cell
+\qr {98.51}\cell
+\row
+\ql {3}\cell
+\qr {210}\cell
+\qr {1.30}\cell
+\qr {99.80}\cell
+\row
+\ql {4}\cell
+\qr {30}\cell
+\qr {0.19}\cell
+\qr {99.99}\cell
+\row
+\ql {5}\cell
+\qr {2}\cell
+\qr {0.01}\cell
+\qr {100.00}\cell
+\row
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
+\ql {Total}\cell
+\qr {16214}\cell
+\qr {100.00}\cell
+\qr {}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3900\cell
+\row}
+
+
+\writepositionforappend
+}}

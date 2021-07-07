@@ -1,0 +1,2746 @@
+{\rtf1\ansi\deff0 {\fonttbl{\f0\fnil Garamond;}}
+{\info {\author .}{\company .}{\title .}}
+\deflang1033\plain\fs20
+{\footer\pard\qc\plain\f0\fs20\chpgn\par}
+{
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx3000
+\fs20\pard\intbl\ql {Program }\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Year of }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\cellx8400
+\fs20\pard\intbl\ql {weight}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs20\pard\intbl\ql {Birth, from }\cell
+\cellx3600
+\fs20\pard\intbl\ql {change}\cell
+\cellx5200
+\fs20\pard\intbl\ql {from}\cell
+\cellx6800
+\fs20\pard\intbl\ql {birth}\cell
+\cellx8400
+\fs20\pard\intbl\ql {to}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {April - }\cell
+\cellx5400
+\fs20\pard\intbl\ql {d28}\cell
+\cellx7900
+\fs20\pard\intbl\ql {(g)}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {March }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1996-97 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  561.788}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  320.132}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1997-98 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  579.144}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  320.975}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1998-99 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  542.016}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  281.575}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1999-00 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  552.133}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  278.303}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2000-01 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  564.392}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  294.830}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2001-02 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  608.572}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  262.543}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2002-03 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  590.725}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  290.890}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2003-04 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  602.348}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  314.360}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2004-05 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  624.376}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  299.361}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2005-06 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  613.941}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  314.975}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2006-07 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  629.978}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  298.089}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2007-08 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  619.246}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  315.038}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2008-09 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  629.736}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  290.592}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2009-10 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  625.182}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  286.971}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2010-11 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  635.130}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  304.944}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2011-12 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  624.096}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  282.749}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2012-13 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  657.703}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  290.110}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2013-14 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  663.290}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  267.555}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2014-15 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  628.847}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  280.097}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2015-16 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  673.635}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  287.222}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2016-17 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  694.033}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  304.550}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2017-18 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  651.888}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  287.262}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2018-19 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  681.604}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  291.958}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2019-20 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  668.839}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  317.711}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  623.608}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  296.401}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      25706151.5     23   1117658.76     12.94     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      1.3987e+09  16190   86390.8606}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {Bartlett's test for equal variances:  chi2(23) =  87.1912  Prob>chi2 = 0.000}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx3000
+\fs20\pard\intbl\ql {Program }\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {Year of }\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Birth, from }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Growth}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {April - }\cell
+\cellx4400
+\fs20\pard\intbl\ql {velocity}\cell
+\cellx6400
+\fs20\pard\intbl\ql {in}\cell
+\cellx8400
+\fs20\pard\intbl\ql {g/kg/d}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {March }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1996-97 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.423}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    5.453}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1997-98 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.380}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    7.126}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1998-99 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.820}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.310}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1999-00 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.772}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.021}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2000-01 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.156}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.798}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2001-02 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.388}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.817}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2002-03 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.235}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.218}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2003-04 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.425}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.475}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2004-05 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.767}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.539}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2005-06 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.605}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.686}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2006-07 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.745}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.384}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2007-08 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.729}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.702}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2008-09 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.859}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.397}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2009-10 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.638}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.308}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2010-11 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.797}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.351}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2011-12 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.611}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.160}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2012-13 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    9.155}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.308}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2013-14 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    9.124}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.889}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2014-15 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.801}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.184}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2015-16 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    9.225}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.152}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2016-17 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    9.482}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.330}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2017-18 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    9.024}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.170}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2018-19 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    9.462}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.237}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2019-20 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    9.272}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.688}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.710}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.465}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      3369.97994     23   146.520867      7.42     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups       319891.75  16190    19.758601}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {    Total            323261.73  16213   19.9384278}\line
+\fs20 {Bartlett's test for equal variances:  chi2(23) = 431.1835  Prob>chi2 = 0.000}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx3000
+\fs20\pard\intbl\ql {Program }\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Year of }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Exponential}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Birth, from }\cell
+\cellx5400
+\fs20\pard\intbl\ql {growth}\cell
+\cellx7900
+\fs20\pard\intbl\ql {velocity}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {April - }\cell
+\cellx6400
+\fs20\pard\intbl\ql {(g/kg/d)}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {March }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1996-97 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.306}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.255}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1997-98 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.231}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.300}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1998-99 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    6.896}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.562}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1999-00 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    6.876}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.355}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2000-01 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.140}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.829}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2001-02 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.402}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.078}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2002-03 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.245}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.446}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2003-04 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.377}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.692}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2004-05 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.652}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.685}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2005-06 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.513}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.748}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2006-07 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.653}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.468}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2007-08 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.611}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.782}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2008-09 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.743}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.476}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2009-10 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.571}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.418}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2010-11 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.691}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.546}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2011-12 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.558}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.350}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2012-13 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.988}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.400}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2013-14 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.992}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.101}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2014-15 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.713}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.315}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2015-16 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.057}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.247}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2016-17 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.241}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.510}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2017-18 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.893}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.304}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2018-19 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.238}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.338}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2019-20 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.988}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.922}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.617}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.583}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      2252.17676     23   97.9207286      7.70     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      205943.696  16190   12.7204259}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {    Total           208195.873  16213   12.8412923}\line
+\fs20 {Bartlett's test for equal variances:  chi2(23) = 343.5387  Prob>chi2 = 0.000}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2400
+\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8400
+\fs20\pard\intbl\ql {weight}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs20\pard\intbl\ql {}\cell
+\cellx3600
+\fs20\pard\intbl\ql {change}\cell
+\cellx5200
+\fs20\pard\intbl\ql {from}\cell
+\cellx6800
+\fs20\pard\intbl\ql {birth}\cell
+\cellx8400
+\fs20\pard\intbl\ql {to}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Number of }\cell
+\cellx5400
+\fs20\pard\intbl\ql {d28}\cell
+\cellx7900
+\fs20\pard\intbl\ql {(g)}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {CHW visits }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {0 visits }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  589.022}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  306.167}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1-5 visit }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  615.202}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  303.672}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {5-10 visi }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  647.402}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  286.590}\cell
+\row}
+{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  623.608}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  296.401}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      12769300.4      3   4256433.48     48.88     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      1.4116e+09  16210   87082.3494}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {Bartlett's test for equal variances:  chi2(3) =  29.0615  Prob>chi2 = 0.000}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2400
+\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8400
+\fs20\pard\intbl\ql {Growth}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Number of }\cell
+\cellx4400
+\fs20\pard\intbl\ql {velocity}\cell
+\cellx6400
+\fs20\pard\intbl\ql {in}\cell
+\cellx8400
+\fs20\pard\intbl\ql {g/kg/d}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {CHW visits }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {0 visits }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.376}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    5.048}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1-5 visit }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.281}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.322}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {5-10 visi }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.862}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.072}\cell
+\row}
+{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.710}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.465}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      2450.76839      3   816.922797     41.28     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      320810.961  16210   19.7909291}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {    Total            323261.73  16213   19.9384278}\line
+\fs20 {Bartlett's test for equal variances:  chi2(3) = 405.0591  Prob>chi2 = 0.000}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2400
+\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8400
+\fs20\pard\intbl\ql {Exponential}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {}\cell
+\cellx5400
+\fs20\pard\intbl\ql {growth}\cell
+\cellx7900
+\fs20\pard\intbl\ql {velocity}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {Number of }\cell
+\cellx6400
+\fs20\pard\intbl\ql {(g/kg/d)}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {CHW visits }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {0 visits }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.319}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.777}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1-5 visit }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.278}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.477}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {5-10 visi }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.766}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.281}\cell
+\row}
+{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.617}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.583}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      1423.18933      3   474.396445     37.19     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      206772.683  16210   12.7558719}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {    Total           208195.873  16213   12.8412923}\line
+\fs20 {Bartlett's test for equal variances:  chi2(3) = 493.0644  Prob>chi2 = 0.000}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2400
+\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8400
+\fs20\pard\intbl\ql {weight}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs20\pard\intbl\ql {Maternal }\cell
+\cellx3600
+\fs20\pard\intbl\ql {change}\cell
+\cellx5200
+\fs20\pard\intbl\ql {from}\cell
+\cellx6800
+\fs20\pard\intbl\ql {birth}\cell
+\cellx8400
+\fs20\pard\intbl\ql {to}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Educ in 4 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {d28}\cell
+\cellx7900
+\fs20\pard\intbl\ql {(g)}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Categories }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Illiterat }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  553.402}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  291.248}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1-4/Liter }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  583.511}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  295.573}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {5-10 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  626.712}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  294.280}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {>=11 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  676.450}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  294.321}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  626.045}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  296.486}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      23989664.6      3   7996554.87     92.58     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      1.3383e+09  15495   86373.0012}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {Bartlett's test for equal variances:  chi2(3) =   0.4815  Prob>chi2 = 0.923}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2400
+\fs20\pard\intbl\ql {Maternal }\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8400
+\fs20\pard\intbl\ql {Growth}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Educ in 4 }\cell
+\cellx4400
+\fs20\pard\intbl\ql {velocity}\cell
+\cellx6400
+\fs20\pard\intbl\ql {in}\cell
+\cellx8400
+\fs20\pard\intbl\ql {g/kg/d}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Categories }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Illiterat }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.975}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.416}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1-4/Liter }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.267}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.331}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {5-10 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.770}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.557}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {>=11 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    9.189}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.263}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.731}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.467}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      2368.58886      3   789.529621     39.86     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      306935.204  15495   19.8086611}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {    Total           309303.793  15498   19.9576586}\line
+\fs20 {Bartlett's test for equal variances:  chi2(3) =  25.1302  Prob>chi2 = 0.000}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2400
+\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8400
+\fs20\pard\intbl\ql {Exponential}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Maternal }\cell
+\cellx5400
+\fs20\pard\intbl\ql {growth}\cell
+\cellx7900
+\fs20\pard\intbl\ql {velocity}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {Educ in 4 }\cell
+\cellx6400
+\fs20\pard\intbl\ql {(g/kg/d)}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Categories }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Illiterat }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.013}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.661}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1-4/Liter }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.263}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.526}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {5-10 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.666}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.526}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {>=11 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.008}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.619}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.633}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.585}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      1582.06365      3   527.354552     41.36     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      197585.513  15495   12.7515659}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {    Total           199167.577  15498   12.8511793}\line
+\fs20 {Bartlett's test for equal variances:  chi2(3) =   7.3307  Prob>chi2 = 0.062}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2400
+\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8400
+\fs20\pard\intbl\ql {weight}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs20\pard\intbl\ql {Paternal }\cell
+\cellx3600
+\fs20\pard\intbl\ql {change}\cell
+\cellx5200
+\fs20\pard\intbl\ql {from}\cell
+\cellx6800
+\fs20\pard\intbl\ql {birth}\cell
+\cellx8400
+\fs20\pard\intbl\ql {to}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Educ in 4 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {d28}\cell
+\cellx7900
+\fs20\pard\intbl\ql {(g)}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Categories }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Illiterat }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  561.827}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  291.333}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1-4/Liter }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  579.498}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  289.528}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {5-10 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  628.774}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  291.860}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {>=11 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  658.155}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  302.353}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  626.129}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  296.586}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      15255178.2      3   5085059.39     58.45     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      1.3458e+09  15470   86994.0667}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {Bartlett's test for equal variances:  chi2(3) =   9.1907  Prob>chi2 = 0.027}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2400
+\fs20\pard\intbl\ql {Paternal }\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8400
+\fs20\pard\intbl\ql {Growth}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Educ in 4 }\cell
+\cellx4400
+\fs20\pard\intbl\ql {velocity}\cell
+\cellx6400
+\fs20\pard\intbl\ql {in}\cell
+\cellx8400
+\fs20\pard\intbl\ql {g/kg/d}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Categories }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Illiterat }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.022}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.366}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1-4/Liter }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.263}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.334}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {5-10 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.838}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.543}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {>=11 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.954}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.392}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.731}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.468}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      1507.10623      3   502.368744     25.28     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      307416.211  15470   19.8717654}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {    Total           308923.317  15473   19.9653149}\line
+\fs20 {Bartlett's test for equal variances:  chi2(3) =  11.1986  Prob>chi2 = 0.011}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2400
+\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8400
+\fs20\pard\intbl\ql {Exponential}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Paternal }\cell
+\cellx5400
+\fs20\pard\intbl\ql {growth}\cell
+\cellx7900
+\fs20\pard\intbl\ql {velocity}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {Educ in 4 }\cell
+\cellx6400
+\fs20\pard\intbl\ql {(g/kg/d)}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Categories }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Illiterat }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.059}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.574}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1-4/Liter }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.259}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.538}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {5-10 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.723}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.503}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {>=11 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.809}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.700}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.634}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.586}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      980.041834      3   326.680611     25.53     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      197963.843  15470   12.7966285}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {    Total           198943.885  15473   12.8574863}\line
+\fs20 {Bartlett's test for equal variances:  chi2(3) =  18.1943  Prob>chi2 = 0.000}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2400
+\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8400
+\fs20\pard\intbl\ql {weight}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs20\pard\intbl\ql {Gravidity }\cell
+\cellx3600
+\fs20\pard\intbl\ql {change}\cell
+\cellx5200
+\fs20\pard\intbl\ql {from}\cell
+\cellx6800
+\fs20\pard\intbl\ql {birth}\cell
+\cellx8400
+\fs20\pard\intbl\ql {to}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {in 4 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {d28}\cell
+\cellx7900
+\fs20\pard\intbl\ql {(g)}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Categories }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1st preg }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  618.183}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  297.061}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2nd preg }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  645.774}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  294.277}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {3rd preg }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  623.081}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  297.080}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {>=4 preg }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  559.134}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  294.101}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  625.991}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  296.538}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      6864660.77      3   2288220.26     26.15     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      1.3567e+09  15504   87508.9152}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {Bartlett's test for equal variances:  chi2(3) =   0.6926  Prob>chi2 = 0.875}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2400
+\fs20\pard\intbl\ql {Gravidity }\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8400
+\fs20\pard\intbl\ql {Growth}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {in 4 }\cell
+\cellx4400
+\fs20\pard\intbl\ql {velocity}\cell
+\cellx6400
+\fs20\pard\intbl\ql {in}\cell
+\cellx8400
+\fs20\pard\intbl\ql {g/kg/d}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Categories }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1st preg }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.860}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.703}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2nd preg }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.807}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.291}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {3rd preg }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.570}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.309}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {>=4 preg }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.697}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.132}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.730}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.468}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      1182.83902      3   394.279674     19.82     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      308369.419  15504   19.8896684}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {    Total           309552.258  15507   19.9620983}\line
+\fs20 {Bartlett's test for equal variances:  chi2(3) =  70.1008  Prob>chi2 = 0.000}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2400
+\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8400
+\fs20\pard\intbl\ql {Exponential}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Gravidity }\cell
+\cellx5400
+\fs20\pard\intbl\ql {growth}\cell
+\cellx7900
+\fs20\pard\intbl\ql {velocity}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {in 4 }\cell
+\cellx6400
+\fs20\pard\intbl\ql {(g/kg/d)}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Categories }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1st preg }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.728}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.637}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2nd preg }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.701}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.580}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {3rd preg }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.514}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.467}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {>=4 preg }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    6.808}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.420}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.633}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.585}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      743.571436      3   247.857145     19.35     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      198597.379  15504   12.8094285}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {    Total           199340.951  15507   12.8549011}\line
+\fs20 {Bartlett's test for equal variances:  chi2(3) =  11.3461  Prob>chi2 = 0.010}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2400
+\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8400
+\fs20\pard\intbl\ql {weight}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs20\pard\intbl\ql {}\cell
+\cellx3600
+\fs20\pard\intbl\ql {change}\cell
+\cellx5200
+\fs20\pard\intbl\ql {from}\cell
+\cellx6800
+\fs20\pard\intbl\ql {birth}\cell
+\cellx8400
+\fs20\pard\intbl\ql {to}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Parity in 5 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {d28}\cell
+\cellx7900
+\fs20\pard\intbl\ql {(g)}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Categories }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {0 childre }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  613.792}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  298.151}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1 child }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  649.122}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  292.685}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2 childre }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  610.162}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  293.587}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {3 childre }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  554.735}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  282.146}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {>=4 child }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  541.560}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  327.529}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  623.608}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  296.401}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      9161044.54      4   2290261.14     26.23     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      1.4152e+09  16209     87310.33}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {Bartlett's test for equal variances:  chi2(4) =   9.9759  Prob>chi2 = 0.041}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2400
+\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8400
+\fs20\pard\intbl\ql {Growth}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Parity in 5 }\cell
+\cellx4400
+\fs20\pard\intbl\ql {velocity}\cell
+\cellx6400
+\fs20\pard\intbl\ql {in}\cell
+\cellx8400
+\fs20\pard\intbl\ql {g/kg/d}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Categories }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {0 childre }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.800}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.688}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1 child }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.856}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.279}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2 childre }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.352}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.188}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {3 childre }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.616}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.993}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {>=4 child }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.599}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.679}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.710}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.465}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      1375.55286      4   343.888216     17.32     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      321886.177  16209   19.8584846}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {    Total            323261.73  16213   19.9384278}\line
+\fs20 {Bartlett's test for equal variances:  chi2(4) =  86.4598  Prob>chi2 = 0.000}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2400
+\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8400
+\fs20\pard\intbl\ql {Exponential}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {}\cell
+\cellx5400
+\fs20\pard\intbl\ql {growth}\cell
+\cellx7900
+\fs20\pard\intbl\ql {velocity}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {Parity in 5 }\cell
+\cellx6400
+\fs20\pard\intbl\ql {(g/kg/d)}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {Categories }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {0 childre }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.679}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.647}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1 child }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.742}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.559}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2 childre }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.344}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.394}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {3 childre }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    6.752}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.310}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {>=4 child }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    6.682}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.870}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.617}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.583}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      878.115548      4   219.528887     17.16     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      207317.757  16209   12.7902867}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {    Total           208195.873  16213   12.8412923}\line
+\fs20 {Bartlett's test for equal variances:  chi2(4) =  25.5105  Prob>chi2 = 0.000}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2400
+\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8400
+\fs20\pard\intbl\ql {weight}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs20\pard\intbl\ql {}\cell
+\cellx3600
+\fs20\pard\intbl\ql {change}\cell
+\cellx5200
+\fs20\pard\intbl\ql {from}\cell
+\cellx6800
+\fs20\pard\intbl\ql {birth}\cell
+\cellx8400
+\fs20\pard\intbl\ql {to}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {morbidity_n }\cell
+\cellx5400
+\fs20\pard\intbl\ql {d28}\cell
+\cellx7900
+\fs20\pard\intbl\ql {(g)}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {um }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {0 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  632.734}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  288.902}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  612.434}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  301.876}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  580.182}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  327.882}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {3 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  532.024}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  367.694}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {4 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {555}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  490.707}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {5 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  987.500}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  300.520}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {  623.608}\cell
+\cellx7900
+\fs20\pard\intbl\ql {  296.401}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups         5250680      5      1050136     11.99     0.0000}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      1.4191e+09  16208   87556.9783}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {Bartlett's test for equal variances:  chi2(5) =  74.8469  Prob>chi2 = 0.000}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2400
+\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8400
+\fs20\pard\intbl\ql {Growth}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {morbidity_n }\cell
+\cellx4400
+\fs20\pard\intbl\ql {velocity}\cell
+\cellx6400
+\fs20\pard\intbl\ql {in}\cell
+\cellx8400
+\fs20\pard\intbl\ql {g/kg/d}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {um }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {0 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.765}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.244}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.632}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.452}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.459}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    5.144}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {3 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.897}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    5.708}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {4 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {   11.002}\cell
+\cellx7900
+\fs20\pard\intbl\ql {   21.898}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {5 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {   14.107}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.293}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    8.710}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.465}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      467.291852      5   93.4583703      4.69     0.0003}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      322794.438  16208   19.9157476}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {    Total            323261.73  16213   19.9384278}\line
+\fs20 {Bartlett's test for equal variances:  chi2(5) = 655.8219  Prob>chi2 = 0.000}\line
+
+{\b\qc\line  }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2400
+\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx4400
+\fs20\pard\intbl\ql {Summary}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6400
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8400
+\fs20\pard\intbl\ql {Exponential}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {}\cell
+\cellx5400
+\fs20\pard\intbl\ql {growth}\cell
+\cellx7900
+\fs20\pard\intbl\ql {velocity}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {morbidity_n }\cell
+\cellx6400
+\fs20\pard\intbl\ql {(g/kg/d)}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2400
+\fs20\pard\intbl\ql {um }\cell
+\cellx4400
+\fs20\pard\intbl\ql {Mean}\cell
+\cellx6400
+\fs20\pard\intbl\ql {Std.}\cell
+\cellx8400
+\fs20\pard\intbl\ql {Dev.}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {0 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.674}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.471}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {1 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.551}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.604}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {2 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.352}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.144}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {3 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    6.822}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    4.794}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {4 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.863}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    9.367}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {5 }\cell
+\cellx5400
+\fs20\pard\intbl\ql {   11.823}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.081}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Total }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    7.617}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    3.583}\cell
+\row}
+\fs20 {                        Analysis of Variance}\line
+\fs20 {    Source              SS         df      MS            F     Prob > F}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Between groups      285.084361      5   57.0168722      4.44     0.0005}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { Within groups      207910.788  16208   12.8276646}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx3000\cell
+\row}
+\fs20 {    Total           208195.873  16213   12.8412923}\line
+\fs20 {Bartlett's test for equal variances:  chi2(5) = 206.3217  Prob>chi2 = 0.000}\line
+
+
+\writepositionforappend
+}}
