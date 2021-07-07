@@ -1,3 +1,5 @@
+*Note: this file is just for experimental data anlysis using a GEE instead of ordinary linear regression. This is not part of the final analyis.
+
 clear
 use data/imputed_change_data.dta
 capture log close
